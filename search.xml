@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>2023.12.30_学习日记</title>
+    <url>/2023/12/30/2023.12.30_%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：阴<br>学习地点：宿舍<br>学习时长：4h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>图的算法<ol>
+<li>图的遍历（BFS, DFS）</li>
+<li>最小路径（Dijkstra）</li>
+<li>最小生成树（Prim, K）</li>
+</ol>
+</li>
+<li>神策面试题和美团面试题<ol>
+<li><img src="/2023/12/30/2023.12.30_%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/a0c3a998fd4e6182648b3c4c61ba7d7.png" alt="Alt text"><br><em>这个题很简单，一个是下标一个是值，找到数学算法之后直接遍历一次就行，遍历的时候记录res。</em></li>
+<li><img src="/2023/12/30/2023.12.30_%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3ba9852c15f8184e6cd1dd43d1f241b.png" alt="Alt text"><br><em>俩数组把值变得一样，这个原题比较简单，递归+动态规划就行，leetcode72编辑距离难一点，是字符串不是数组，边界问题要细心考虑。</em></li>
+</ol>
+</li>
+</ol>
+<h2 id="学习心得"><a href="#学习心得" class="headerlink" title="学习心得"></a>学习心得</h2><p>这几个面试题不太难，看一遍基本就会了，动态规划忘的有点多，今天做了一个热热手，碰到越界问题找错太麻烦了，还好有万能的GPT省了我很多时间。今天起的太晚了，明天早起，over。</p>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2023.12.31_学习日记</title>
     <url>/2023/12/31/2023-12-31-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
     <content><![CDATA[<p>天气：阴（重度污染）<br>学习地点：宿舍<br>学习时长：5h（2023的最后一天也要进步！）</p>
@@ -39,24 +66,15 @@
       </tags>
   </entry>
   <entry>
-    <title>2023.12.30_学习日记</title>
-    <url>/2023/12/30/2023.12.30_%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p>天气：阴<br>学习地点：宿舍<br>学习时长：4h</p>
+    <title>2024-01-02-学习日记</title>
+    <url>/2024/01/02/2024-01-02-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：宿舍<br>学习时长：3h（醒酒日。。）</p>
 <span id="more"></span>
 <h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
-<li>图的算法<ol>
-<li>图的遍历（BFS, DFS）</li>
-<li>最小路径（Dijkstra）</li>
-<li>最小生成树（Prim, K）</li>
+<li>字节面试题（leetcode1574变式）<br><img src="/2024/01/02/2024-01-02-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/018869481261887ca2064d472a264b1.png" alt="Alt text"><br><em>这个题用二分搜索+双指针解，培养画图的能力，有些题把图画出来好解很多，别光靠脑子画图，左右指针分别代表前缀后缀的反向后前指针，然后找最小值即可。</em></li>
+<li>京东面试题<br><img src="/2024/01/02/2024-01-02-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/eebc6b774477d6fb4470a56d5cf86a5.png" alt="Alt text"><br><em>这个题值得反复看，用一个区间套住target并且讨论多种情况下左右边界是否做变化，最核心的思想是这个题最多的操作数是2，如果相同返回0，如果两个小于n的值返回2，然后讨论1的情况，还要用cnt函数数字出现的次数，比较考验思路请不清晰。</em></li>
 </ol>
-</li>
-<li>神策面试题和美团面试题<ol>
-<li><img src="/2023/12/30/2023.12.30_%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/a0c3a998fd4e6182648b3c4c61ba7d7.png" alt="Alt text"><br><em>这个题很简单，一个是下标一个是值，找到数学算法之后直接遍历一次就行，遍历的时候记录res。</em></li>
-<li><img src="/2023/12/30/2023.12.30_%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3ba9852c15f8184e6cd1dd43d1f241b.png" alt="Alt text"><br><em>俩数组把值变得一样，这个原题比较简单，递归+动态规划就行，leetcode72编辑距离难一点，是字符串不是数组，边界问题要细心考虑。</em></li>
-</ol>
-</li>
-</ol>
-<h2 id="学习心得"><a href="#学习心得" class="headerlink" title="学习心得"></a>学习心得</h2><p>这几个面试题不太难，看一遍基本就会了，动态规划忘的有点多，今天做了一个热热手，碰到越界问题找错太麻烦了，还好有万能的GPT省了我很多时间。今天起的太晚了，明天早起，over。</p>
+<h2 id="学习心得"><a href="#学习心得" class="headerlink" title="学习心得"></a>学习心得</h2><p>今天精神状态不佳，不找理由了，明天多做几个题把今天的补上。</p>
 ]]></content>
       <categories>
         <category>学习日记</category>
@@ -77,24 +95,6 @@
 <li>京东面试题（lclcr010）<br><img src="/2024/01/04/2024-01-04-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/e9ffc17c308c7a593afcffc4266286e.png" alt="Alt text"><br><em>前缀和加哈希，这个题就是遍历一次，以每个数结尾的和-k值有多少个，并且同时记录前缀和，把前缀和记录到哈希表里，最后遍历相加每一个前缀和的个数即可。这个题很经典，多看</em></li>
 </ol>
 <h2 id="学习心得"><a href="#学习心得" class="headerlink" title="学习心得"></a>学习心得</h2><p>今天几个面试题很经典，每天保持做5个题左右，坚持到1月底能做150个题了，加油！希望2月份能拿到好的实习机会。</p>
-]]></content>
-      <categories>
-        <category>学习日记</category>
-      </categories>
-      <tags>
-        <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2024-01-02-学习日记</title>
-    <url>/2024/01/02/2024-01-02-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p>天气：晴<br>学习地点：宿舍<br>学习时长：3h（醒酒日。。）</p>
-<span id="more"></span>
-<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
-<li>字节面试题（leetcode1574变式）<br><img src="/2024/01/02/2024-01-02-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/018869481261887ca2064d472a264b1.png" alt="Alt text"><br><em>这个题用二分搜索+双指针解，培养画图的能力，有些题把图画出来好解很多，别光靠脑子画图，左右指针分别代表前缀后缀的反向后前指针，然后找最小值即可。</em></li>
-<li>京东面试题<br><img src="/2024/01/02/2024-01-02-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/eebc6b774477d6fb4470a56d5cf86a5.png" alt="Alt text"><br><em>这个题值得反复看，用一个区间套住target并且讨论多种情况下左右边界是否做变化，最核心的思想是这个题最多的操作数是2，如果相同返回0，如果两个小于n的值返回2，然后讨论1的情况，还要用cnt函数数字出现的次数，比较考验思路请不清晰。</em></li>
-</ol>
-<h2 id="学习心得"><a href="#学习心得" class="headerlink" title="学习心得"></a>学习心得</h2><p>今天精神状态不佳，不找理由了，明天多做几个题把今天的补上。</p>
 ]]></content>
       <categories>
         <category>学习日记</category>
@@ -164,20 +164,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2024.01.08_学习日记</title>
-    <url>/2024/01/08/2024-01-08-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p>天气：多云<br>学习地点：寝室<br>学习时长：3h</p>
-<span id="more"></span>
-<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><p>这周要旅游，下周统一更新具体学习内容。</p>
-]]></content>
-      <categories>
-        <category>学习日记</category>
-      </categories>
-      <tags>
-        <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2024.01.07_学习日记</title>
     <url>/2024/01/07/2024-01-07-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
     <content><![CDATA[<p>天气：晴<br>学习地点：宿舍<br>学习时长：2h</p>
@@ -187,6 +173,20 @@
 <li>腾讯音乐面试题<br><img src="/2024/01/07/2024-01-07-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/9af13223e2ff237dc3fcaff3096aa62.png" alt="Alt text"><br><em>两种方法，1：其实就是统计连续0的方法然后相乘，每个连续零可以搞个动态规划表出来，长度表示最大值，宽度表示数组长度，dp【i，j】就是4个连续0填3个格子的大小，最后返回几个dp值得乘积。2：第二个方法是用数学方法，n个数字里取m个单调不减数列，就是C（n+m，m），然后找到连续0得个数，最后乘起来。</em></li>
 </ol>
 <h2 id="学习心得"><a href="#学习心得" class="headerlink" title="学习心得"></a>学习心得</h2><p>今天学习时间比较短，明天要出门旅游，寒假开始喽，每天也要坚持刷题。</p>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024.01.08_学习日记</title>
+    <url>/2024/01/08/2024-01-08-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：多云<br>学习地点：寝室<br>学习时长：3h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><p>这周要旅游，下周统一更新具体学习内容。</p>
 ]]></content>
       <categories>
         <category>学习日记</category>
@@ -207,11 +207,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2024.01.17_学习日记</title>
-    <url>/2024/01/17/2024-01-17-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>2024.01.16_学习日记</title>
     <url>/2024/01/16/2024-01-16-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
     <content><![CDATA[<p>天气：晴<br>学习地点：家<br>学习时长：3h</p>
@@ -223,6 +218,24 @@
       </categories>
       <tags>
         <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024.01.17_学习日记</title>
+    <url>/2024/01/17/2024-01-17-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：小雨<br>学习地点：家<br>学习时长：3h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>配置新的hexo博客<br>昨天晚上和今天一直在重新配置hexo，之前的博客突然不能上传了，改了很久才弄好，错误来源主要是环境配置的问题，<a href="https://blog.csdn.net/good_good_xiu/article/details/118567249">解决链接</a>在这里。<br>还有hexo图片加载不出来的情况，安装插件，重新配置即可。</li>
+<li></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>hexo配置问题</tag>
       </tags>
   </entry>
 </search>
