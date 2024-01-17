@@ -24,6 +24,48 @@
       </tags>
   </entry>
   <entry>
+    <title>2024.01.01_学习日记</title>
+    <url>/project/2024/01/01/2024-01-01-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：宿舍<br>学习时长：2h（2024的第一天也在学习！）</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><p>今天没有学习算法，但是把hexo的动态背景、加载效果等等都设置了一下，吐槽一下，bug太多了，打赏界面图标部署以后一直加载不出来，心烦的嘞。</p>
+<h2 id="酒精日记"><a href="#酒精日记" class="headerlink" title="酒精日记"></a>酒精日记</h2><p>下午健身，晚上和家人一起吃饭，喝了红酒、啤酒、白酒。。。又喝杂了。。和哥哥嫂子聊到了女朋友，嘿嘿，很是开心！！坐地铁回到寝室又饿了，现在准备加餐！<br>over</p>
+]]></content>
+      <categories>
+        <category>酒精日记</category>
+      </categories>
+      <tags>
+        <tag>酒精日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2023.12.30_学习日记</title>
+    <url>/project/2024/01/17/2023.12.30_%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：阴<br>学习地点：宿舍<br>学习时长：4h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>图的算法<ol>
+<li>图的遍历（BFS, DFS）</li>
+<li>最小路径（Dijkstra）</li>
+<li>最小生成树（Prim, K）</li>
+</ol>
+</li>
+<li>神策面试题和美团面试题<ol>
+<li><img src="/project/2023.12.30_%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/a0c3a998fd4e6182648b3c4c61ba7d7.png" alt="Alt text"><br><em>这个题很简单，一个是下标一个是值，找到数学算法之后直接遍历一次就行，遍历的时候记录res。</em></li>
+<li><img src="/project/2023.12.30_%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3ba9852c15f8184e6cd1dd43d1f241b.png" alt="Alt text"><br><em>俩数组把值变得一样，这个原题比较简单，递归+动态规划就行，leetcode72编辑距离难一点，是字符串不是数组，边界问题要细心考虑。</em></li>
+</ol>
+</li>
+</ol>
+<h2 id="学习心得"><a href="#学习心得" class="headerlink" title="学习心得"></a>学习心得</h2><p>这几个面试题不太难，看一遍基本就会了，动态规划忘的有点多，今天做了一个热热手，碰到越界问题找错太麻烦了，还好有万能的GPT省了我很多时间。今天起的太晚了，明天早起，over。</p>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2024-01-02-学习日记</title>
     <url>/project/2024/01/02/2024-01-02-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
     <content><![CDATA[<p>天气：晴<br>学习地点：宿舍<br>学习时长：3h（醒酒日。。）</p>
@@ -39,21 +81,6 @@
       </categories>
       <tags>
         <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2024.01.01_学习日记</title>
-    <url>/project/2024/01/01/2024-01-01-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p>天气：晴<br>学习地点：宿舍<br>学习时长：2h（2024的第一天也在学习！）</p>
-<span id="more"></span>
-<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><p>今天没有学习算法，但是把hexo的动态背景、加载效果等等都设置了一下，吐槽一下，bug太多了，打赏界面图标部署以后一直加载不出来，心烦的嘞。</p>
-<h2 id="酒精日记"><a href="#酒精日记" class="headerlink" title="酒精日记"></a>酒精日记</h2><p>下午健身，晚上和家人一起吃饭，喝了红酒、啤酒、白酒。。。又喝杂了。。和哥哥嫂子聊到了女朋友，嘿嘿，很是开心！！坐地铁回到寝室又饿了，现在准备加餐！<br>over</p>
-]]></content>
-      <categories>
-        <category>酒精日记</category>
-      </categories>
-      <tags>
-        <tag>酒精日记</tag>
       </tags>
   </entry>
   <entry>
@@ -128,33 +155,6 @@
 <li>小红书笔试题<br><img src="/project/2024-01-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/65938a7de1604b611556afae52a63fd.png" alt="Alt text"><br><em>这个题就是把想到0的个数-1的个数最多的时候，就翻转这个数组，这个时候把0变成1，1变成-1，就能找到0-1最多的区间了。</em></li>
 </ol>
 <h2 id="学习心得"><a href="#学习心得" class="headerlink" title="学习心得"></a>学习心得</h2><p>今天学到了差分法，第一个数字+1，最后一个数字下一位-1。还有把数字换成1，-1，求和就可以得到两个对象个数相减的个数。明天继续学习</p>
-]]></content>
-      <categories>
-        <category>学习日记</category>
-      </categories>
-      <tags>
-        <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2023.12.30_学习日记</title>
-    <url>/project/2024/01/17/2023.12.30_%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p>天气：阴<br>学习地点：宿舍<br>学习时长：4h</p>
-<span id="more"></span>
-<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
-<li>图的算法<ol>
-<li>图的遍历（BFS, DFS）</li>
-<li>最小路径（Dijkstra）</li>
-<li>最小生成树（Prim, K）</li>
-</ol>
-</li>
-<li>神策面试题和美团面试题<ol>
-<li><img src="/project/2023.12.30_%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/a0c3a998fd4e6182648b3c4c61ba7d7.png" alt="Alt text"><br><em>这个题很简单，一个是下标一个是值，找到数学算法之后直接遍历一次就行，遍历的时候记录res。</em></li>
-<li><img src="/project/2023.12.30_%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3ba9852c15f8184e6cd1dd43d1f241b.png" alt="Alt text"><br><em>俩数组把值变得一样，这个原题比较简单，递归+动态规划就行，leetcode72编辑距离难一点，是字符串不是数组，边界问题要细心考虑。</em></li>
-</ol>
-</li>
-</ol>
-<h2 id="学习心得"><a href="#学习心得" class="headerlink" title="学习心得"></a>学习心得</h2><p>这几个面试题不太难，看一遍基本就会了，动态规划忘的有点多，今天做了一个热热手，碰到越界问题找错太麻烦了，还好有万能的GPT省了我很多时间。今天起的太晚了，明天早起，over。</p>
 ]]></content>
       <categories>
         <category>学习日记</category>
