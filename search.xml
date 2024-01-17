@@ -40,7 +40,7 @@
   </entry>
   <entry>
     <title>2023.12.30_学习日记</title>
-    <url>/2024/01/17/2023.12.30_%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <url>/2023/12/30/2023.12.30_%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
     <content><![CDATA[<p>天气：阴<br>学习地点：宿舍<br>学习时长：4h</p>
 <span id="more"></span>
 <h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
@@ -51,8 +51,8 @@
 </ol>
 </li>
 <li>神策面试题和美团面试题<ol>
-<li><img src="/2024/01/17/2023.12.30_%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/a0c3a998fd4e6182648b3c4c61ba7d7.png" alt="Alt text"><br><em>这个题很简单，一个是下标一个是值，找到数学算法之后直接遍历一次就行，遍历的时候记录res。</em></li>
-<li><img src="/2024/01/17/2023.12.30_%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3ba9852c15f8184e6cd1dd43d1f241b.png" alt="Alt text"><br><em>俩数组把值变得一样，这个原题比较简单，递归+动态规划就行，leetcode72编辑距离难一点，是字符串不是数组，边界问题要细心考虑。</em></li>
+<li><img src="/2023/12/30/2023.12.30_%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/a0c3a998fd4e6182648b3c4c61ba7d7.png" alt="Alt text"><br><em>这个题很简单，一个是下标一个是值，找到数学算法之后直接遍历一次就行，遍历的时候记录res。</em></li>
+<li><img src="/2023/12/30/2023.12.30_%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3ba9852c15f8184e6cd1dd43d1f241b.png" alt="Alt text"><br><em>俩数组把值变得一样，这个原题比较简单，递归+动态规划就行，leetcode72编辑距离难一点，是字符串不是数组，边界问题要细心考虑。</em></li>
 </ol>
 </li>
 </ol>
