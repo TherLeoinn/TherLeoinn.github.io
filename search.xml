@@ -341,4 +341,28 @@
         <tag>算法</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.01.22_学习日记</title>
+    <url>/2024/01/22/2024-01-22-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：雪<br>学习地点：家<br>学习时长：7h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><p>图的算法</p>
+<ol>
+<li>图的表示很多 邻接矩阵 邻接表<br><a href="https://blog.csdn.net/wd9ljs18/article/details/112191078">建立图</a></li>
+<li>图的宽度优先遍历<br>用一个set记录走过的node，建立queue，先放入node，set也放入node，然后遍历queue，弹出来并且打印，然后遍历node的nexts，判断nextnode是否在set里，不在的话，加入queue和set。</li>
+<li>图的深度优先遍历<br>用一个set记录走过的node，建立stack，先放入node进他们中，然后直接打印，而不是弹出再打印，随后弹出栈，遍历nexts，如果不在set中，栈中放入node，然后再放入nextnode，set放入nextnode，打印nextnode。然后break掉，继续执行while而不是for的内容，这样就可以让node的其他next不会立马入栈，就可以实现深度遍历。</li>
+<li>拓扑排序<br><img src="/2024/01/22/2024-01-22-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/7e9f3af61e8ec6f28e371295d0eb62a.png" alt="Alt text"><br>首先生成一个hashmap，记录node和node剩余的入度。生成一个queue，然后遍历整个graph的node，放入hashmap中，如果入度为0，放入queue里。当queue不为空的时候，把queue弹出cur，放入res中，然后遍历next，把hashmap的next入度-1，如果入度为0，继续放入queue中。</li>
+<li>最小生成树（K、P算法）<br>K算法：从最小的边开始遍历，如果不形成环，加上，形成环，不加。<br><img src="/2024/01/22/2024-01-22-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/27c07cfed8c4931bf5f188a66a91fe3.png" alt="Alt text"><br>P算法：生成一个小根堆，一个set，首先把node放入set里，遍历node所有边，把边放入小根堆里，然后如果小根堆里有数的话，弹出堆顶的最小边，然后生成最小边的tonode，tonode看在不在set里，如果不在，set加入它，res加入这条边，然后遍历tonode的所有边，把边放入小根堆里即可。</li>
+<li><a href="https://www.bilibili.com/video/BV1Ef4y1T7Qi?p=31&vd_source=d980f353cbdc64ff6011544e1f205261">dijkstra算法（迪杰特斯拉算法）</a><br>思路是有一个距离map记录当前距离，有一个set记录锁定一条边，首先把头节点放进map中，然后遍历边，生成tonode，如果tonode不在map里，往map里加上这条边的值，然后更新这个新的值是否比原值大。然后锁定一开始的node，然后从map里选最小值作为下一个要放入的node循环下去。具体看看视频和网页。<br>暴力递归</li>
+<li>前缀树<br>具体看视频。暴力递归这一节。建立过程就是如果是abc，头节点以a为路径生成新节点，头节点pass+1，新节点pass+1，直到c加入以后，末节点end+1.可以查询字符串加入过几次（返回end），或者有多少字符以某字符串为前缀（返回pass）。删除操作就是沿途pass-1，最后节点end-1。如果发现一个节点pass-1&#x3D;&#x3D;0了，直接删掉后面所有信息，node.next&#x3D;NONE。</li>
+<li>贪心算法<br><img src="/2024/01/22/2024-01-22-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/80a245766834549ad74874bb1af4e87.png" alt="Alt text"><br><em>生成最多会议数量：这个题就是先按照结束时间排序，然后遍历如果上一个选择的结束时间小于遍历到的最新的开始时间，那就选当下的。</em></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
 </search>
