@@ -391,4 +391,25 @@
         <tag>算法</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.01.24_学习日记</title>
+    <url>/2024/01/24/2024-01-24-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：阴<br>学习地点：家<br>学习时长：4h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><p>哈希函数和哈希表</p>
+<ol>
+<li>实现常数复杂度级别的哈希表插入、删除、弹出随机key操作<br>弹出随机key：准备两个哈希表，然后分别插入值和index，index按顺序传，两个表相反。然后按照index随机数弹出。<br>删除：跟上面同样的数据结构，删除key用最后一个key来补之前被删的index的key。size-1。<br>插入：就是直接往后加，index++，然后要加两个哈希表。<br><img src="/2024/01/24/2024-01-24-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/439350ace3217433033119f517c74a3.png" alt="Alt text"></li>
+<li>布隆过滤器（一个set，可以支持插入、查询，需要的内存小，会失误，把白名单认成黑名单url）<br>流程是把url网站通过k个哈希函数再%m，得到一个数，在长度为m的空间里，把这个位置描黑。查找的时候按照相同操作，看这些位置有没有描黑判断这个url在不在黑名单里。m和k都要控制，不然失误率会太大。根据n和m选择k，m相同，k越大，失误率按照先减少后增加的。<a href="https://www.bilibili.com/video/BV1Ef4y1T7Qi?p=34&vd_source=d980f353cbdc64ff6011544e1f205261">三个公式</a>：1小时50分</li>
+<li>一致性哈希<br>看视频，听不太懂</li>
+<li>网易面试题<br><img src="/2024/01/24/2024-01-24-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/27dc143da20a8bb212df3afddfbdeff.png" alt="Alt text"><br><img src="/2024/01/24/2024-01-24-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/77fba4892f1bfaa90341ffb3fd461f1.png" alt="Alt text"><br>这个题主要是考细心，一个数组可以变一个数，怎样才能变成x的倍数。先把整体和算出来，然后看当前数字变成另一个数字以后该数字取余+剩下数字取余是不是等于x或者当剩下取余是0那么取余是不是也等于0的所有情况。</li>
+<li>N皇后2（lc52）<br><img src="/2024/01/24/2024-01-24-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/930147a97ab1b516932a65201f14c9c.png" alt="Alt text"><br>用位运算做的方法很好，取最右边的值，选可用的值等等方法还需要多看看。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
 </search>
