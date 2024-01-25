@@ -412,4 +412,28 @@
         <tag>算法</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.01.25_学习日记</title>
+    <url>/2024/01/25/2024-01-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：阴<br>学习地点：家<br>学习时长：5h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>mysql的下载、安装、启动、数据模型<br>打开cmd，输入mysql -u root -p即可。</li>
+<li>sql语言的分类<br>DDL：数据定义语言 DML：数据操作语言，增删改 DQL：数据查询语言，查 DCL：数据控制语言，控制权限，创建数据库</li>
+<li>DDL<br><img src="/2024/01/25/2024-01-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/8b7c5f66dc489ae30588276f23042d8.png" alt="Alt text"><br><img src="/2024/01/25/2024-01-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/eb084dc2a05d597442a3b0be0a945f2.png" alt="Alt text"><br><img src="/2024/01/25/2024-01-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/9ac94f892821c942bfbe54f509ffd98.png" alt="Alt text"><br><img src="/2024/01/25/2024-01-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/e68ffbf44887945bd08fb31e1d7b3ac.png" alt="Alt text"><br><img src="/2024/01/25/2024-01-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/9fc811f898b464175625cff82e544dd.png" alt="Alt text"><br>注册了7个月datagrip。datagrip操作更简单一些，可视化。</li>
+<li>DML<br><img src="/2024/01/25/2024-01-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/02e2b69655f39d9144bbdd07f154be7.png" alt="Alt text"><br>学到15讲了。明天继续往后更新。</li>
+<li>DQL（明天更新）</li>
+<li>DCL（明天更新）</li>
+<li>子集（lc78）<br><img src="/2024/01/25/2024-01-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/b4a2af1cd3a20140cc98430545f7fbb.png" alt="Alt text"><br>所有子集，就是考虑当前数字选或者不选两种情况，所以考虑回溯函数，当index&#x3D;&#x3D;n越界时，返回一个sol，然后return。然后继续回溯，回溯两种情况，第一种要当前值，第二种不要当前值。然后主函数就从index&#x3D;0开始，sol为空数组开始。</li>
+<li>全排列（lc46）<br><img src="/2024/01/25/2024-01-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/1d70ecec71c54d6b475f4dffb9eb6e1.png" alt="Alt text"><br>也是用回溯算法做，用check数组检查该位置有咩有选过，当sol长度&#x3D;&#x3D;nums长度，res就添加sol，然后如果选过了continue，没选过就选，check【i】记得在回溯以后要变成0，以免影响后续结果。</li>
+<li>全排列2（lc47）<br><img src="/2024/01/25/2024-01-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/db8f6ccf7d033f3711c542857177054.png" alt="Alt text"><br>跟上个题一样，但是要考虑到剪枝，因为按照上面的122和122会出现两次，重复情况必须考虑清楚，所以剪枝条件就是先对nums排序后，如果当前值等于前面的值，并且前面的值没用过，那么下面递归的时候肯定要用到这个值，所以就continue。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
 </search>
