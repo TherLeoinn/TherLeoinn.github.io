@@ -464,4 +464,26 @@
         <tag>算法</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.01.30_学习日记</title>
+    <url>/2024/01/30/2024-01-30-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：阴<br>学习地点：家<br>学习时长：5h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>mysql 函数<br><img src="/2024/01/30/2024-01-30-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/d906bbc970b7fe53c7b8fe65b4ccec0.png" alt="Alt text"><br>几个用法用的时候看看就行，比较简单。</li>
+<li>约束<br><img src="/2024/01/30/2024-01-30-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/388b5e6699d2505545a81f8ecfadf01.png" alt="Alt text"><br>同上，用的时候看看。</li>
+<li>多表查询<br><img src="/2024/01/30/2024-01-30-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/d0acad4f6832e69191886019533d9ac.png" alt="Alt text"><br>看看案例就行，语法比较杂。明天看事务部分。</li>
+<li>岛屿问题<br><img src="/2024/01/30/2024-01-30-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/5ece3f922c17a370dbea7e5f542556e.png" alt="Alt text"><br>遍历整个数组，如果值为1，就是岛屿，res+1，同时要对周围进行感染，把上下左右感染成2，然后就是这个感染函数，想清楚函数需要什么参数，i和j要变，grid也要变，然后考虑ij位置，越界了返回。然后把这个点变成2或者0，然后继续递归上下左右四个位置。</li>
+<li>并查集<br>查询两个样本是不是在一个集合，两个集合合并都是O1的时间复杂度。<br>issameset：看两个是不是在一个集合，两个点往上找父节点，如果一样，就true。<br>union：看是不是issameset，如果不是，把短的点直接连给长的头节点。<br>准备三个map，elemap对应每个节点自身圈起来。fathermap对应每个节点的所有父节点。sizemap里面只放头节点，记录集合有几个点（包括自己）。<br>首先遍历list到三个表里，ele放自己，father放自己，size放1。<br><img src="/2024/01/30/2024-01-30-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3c4da56ae27f0f119877b02ce7e7183.png" alt="Alt text"><br>记得更新sizemap和fathermap。思路就是如果ele里有这两个点，返回findhead的头节点是否相等。以及如果有两个点，那么findhead分别求出来，长的big，短的small，然后维护size和father信息，sizemap里remove掉small。<br><img src="/2024/01/30/2024-01-30-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/78e6208d912df0ef323dda7314b85ce.png" alt="Alt text"><br>用一个path记录沿途所有father，如果当前的map父节点不等于自己，自己就变成父节点，父节点记录到path，找到后弹出，最后path栈弹出元素的fathermap全更新为找到的父节点。</li>
+<li><a href="https://leetcode.cn/problems/number-of-islands/solutions/13103/dao-yu-shu-liang-by-leetcode/">岛屿问题并查集解法</a><br>着重看一下，还没完全掌握。自己写了一个优化版本，但是跑出来不理想。具体就是设置一个unionfind类，类里面有初始化，初始化设置count，parrent（m×n长度），size（m×n长度）。然后遍历整个列表，对于等于1的，把对应的父亲设置成自己的下标，并且count+1。然后设置findfather，如果parent不是自己的下标，那就递归自己的parent，递归前设置path放入当前下标。递归后弹出来path所有值，同时设置他们的父亲为头节点。然后是union函数，找到头节点，不相等的时候看size谁更大，然后把短的头设成长的，如果相等，那么size+1，然后count-1，因为union以后count-1。然后是getcount函数，就是返回本身的count。主函数的设置就是遍历整个数组，如果为1，更新成0，然后对周围四个点遍历，如果没有越界，或者为1，那么就union这个值跟原来的值。最后返回getcount。</li>
+<li>最大人工岛问题（lc827困难）<br><img src="/2024/01/30/2024-01-30-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/efc85ed602162d706d3bf2b464be8dc.png" alt="Alt text"><br>这个题也是并查集的应用，着重看一下这个题，python版本怎么写并查集。定义find，union，不用定义类也行，然后想一下为什么不用self也行。设置parent数组n*n，size数组一样，遍历数组，如果为1，对周围四个点为1的union。然后岛屿出来了，size出来了，记录max为最大岛屿size，然后遍历数组，如果为0，建立一个visited集合用来看周围四个点的root，遍历周围四个点，如果为1，找到这个点的root，如果这个点不在visited里，加到visited里面，然后岛屿数t加上这个点的size，四个点遍历完以后更新max，最后返回max即可。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
 </search>
