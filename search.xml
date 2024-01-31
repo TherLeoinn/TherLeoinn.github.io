@@ -486,4 +486,23 @@
         <tag>算法</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.01.31_学习日记</title>
+    <url>/2024/01/31/2024-01-31-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：阴<br>学习地点：家<br>学习时长：8h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>mysql事务<br><img src="/2024/01/31/2024-01-31-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/f9cf044f1fd7cbc089480a90c67e06d.png" alt="Alt text"></li>
+<li>进阶篇 存储引擎<br><img src="/2024/01/31/2024-01-31-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/68be66cf782f3226052708aaf9a8753.png" alt="Alt text"><br>简单看看，感觉不太重要</li>
+<li>KMP算法（找子串）<br><img src="/2024/01/31/2024-01-31-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/1875f6b5ffeb2b49a72510ba75e79eb.png" alt="Alt text"><br><img src="/2024/01/31/2024-01-31-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/409c1dad985659ece2966d96f744d80.png" alt="Alt text"><br>KMP算法就是AB两个字符串，看A是不是包含B这个子串。整个方法就是首先边界条件设置好，然后生成一个next数组，统计B子串当前位置的开头前缀和结尾前缀相同的个数，然后就是循环，当两个字符串不越界的时候，如果当前位置相同，i，j都+1，如果不同并且next数组位置&#x3D;-1,那么i+1，跳到下一个位置去重新比对，next数组位置不等于-1的话，j位置就跳到next【j】上来，最后返回有两种情况，第一种是A不包含B，A越界，另一种是包含B，B到了终点位置，所以最后如果j到了终止位置，返回i-j，否则返回-1。<br>KMP算法逻辑就是两个字符串，如果对比到i位置不相同，前面都相同，那么B串有两个相同的前缀，然后A串的后前缀跟A的后前缀相同，所以也就跟A的前前缀相同，然后把B子串往后推到该位置来对比就行了，如果相同就继续都+1，不同并且next不为-1，就继续推，推的过程可以用i位置跟next【j】位置来对比就行了。<br>关键是求next数组，0位置-1，1位置0，然后后续就是看n-1位置跟cn位置是不是一样，cn位置就是next【n-1】这个位置，如果相同，那么next【n】&#x3D;next【n-1】+1&#x3D;cn+1，然后n++，同时cn++，如果不相等并且cn&gt;0，那么cn&#x3D;next【cn】，如果cn&#x3D;0，那么next【n】&#x3D;0，并且n++。</li>
+<li>重复子串（lc459）<br><img src="/2024/01/31/2024-01-31-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/0d0287cd916db14e5c34335c63a8dc2.png" alt="Alt text"><br>kmp算法，这个要看包含自身的这个最长子串，所以初始化的时候把s后面加一个空格，然后在算最后一个的next值，这个next值剩下的部分就是重复子串，所以最后返回len能不能整除这个重复字串的长度。把创建next数组的流程记住了，-1，0，然后往后看cn跟i前一个数是不是相等，不相等cn大于0就往前继续找。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
 </search>
