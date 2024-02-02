@@ -523,4 +523,24 @@
         <tag>算法</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.02.02_学习日记</title>
+    <url>/2024/02/02/2024-02-02-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：阴<br>学习地点：家<br>学习时长：4h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>滑动窗口（lc239困难）<br><img src="/2024/02/02/2024-02-02-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/6c76fe7712ad0b68d628d10ee7e3e8f.png" alt="Alt text"><br><img src="/2024/02/02/2024-02-02-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/6cf1e1516ba18a4319b553e7aea6d8e.png" alt="Alt text"><br>这个题是滑动窗口问题，如何用On的复杂度返回窗口的最大值最小值，这里用最大值举例。首先生成一个双端队列，双端队列左大右小，每进一个数，跟最右边的数比，如果小，就放右边，如果大，那队列弹出末尾元素，然后继续比较，然后需要删除过期元素以及返回最大值给数组，最后返回res数组即可，双端队列维护的这个区间就是最左边的数是最大值，L往右动一次那么最大值更新一次。最小值的话就是队列从小到大排列。<a href="https://leetcode.cn/problems/sliding-window-maximum/description/">记得看一下python版本。</a></li>
+<li>各种数据结构python如何引用<br><a href="https://www.jianshu.com/p/9b94651534c3">引用链接</a></li>
+<li>最小覆盖子串（lc76）<br><img src="/2024/02/02/2024-02-02-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/8b75d7db9d3c44c9567214d85b36c4d.png" alt="Alt text"><br>这个题就是用一个字典记录窗口内还需要多少个target的字符数量，分三步，第一步从0开始往右走，直到cnt&#x3D;0位置，窗口左边界往右动，动到need【c】&#x3D;0的时候停止，遇到t的元素，然后更新最小值最大值，第三步就是i往下动，need【c】+1，cnt+1，然后右边界继续往右动，最后返回i到j的索引切片，如果j一直没更新还是最大值，那就返回空，没有更新。</li>
+<li>单调栈<br>单调栈就是一个栈结构，下面大上面小，遍历一个数组，可以把数组左右边离你最近的更大的数字生成。具体就是如果当前位置比栈顶小就进栈，大的话就弹出栈顶元素，此时栈顶元素下面的位置就是左边最近的，当前位置是右边最近的，然后继续对比，如果小的话就进栈。但是遇到重复值的时候要把下标重叠起来，变成一个集合。</li>
+<li>接雨水（lc42）<br><img src="/2024/02/02/2024-02-02-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/eb42ff632c07c87ab49cf7874a6af5a.png" alt="Alt text"><br>这个题就是用单调栈，当前如果大于单调栈顶，栈顶弹出后左边的值是left，当前值是right，然后左右最小值-栈顶元素高度就是雨水高度，right-left-1就是雨水长度，累加乘起来就行。while中间加了等号，可以排除掉重复元素。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
 </search>
