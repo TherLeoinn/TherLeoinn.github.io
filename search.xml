@@ -543,4 +543,25 @@
         <tag>算法</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.02.03_学习日记</title>
+    <url>/2024/02/03/2024-02-03-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：阴<br>学习地点：家<br>学习时长：4h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>SQL优化<br><img src="/2024/02/03/2024-02-03-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/76f1db048bc01a918e4ccd50580dead.png" alt="alt text"><br>到时候再看看</li>
+<li>二叉树的直径<br><img src="/2024/02/03/2024-02-03-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/e339200c7f0eb0befeb538e78f5e4be.png" alt="alt text"><br>这种题要从左右两边要信息，所以用一个init函数初始化我们需要的结果，然后dfs返回我们需要的信息，比如高度，然后ans就在dfs里更新生成，最后主函数返回ans就行。</li>
+<li>树形dp<br><img src="/2024/02/03/2024-02-03-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/c7dfe84fdff6ea4134a8c2f59032b04.png" alt="alt text"><br>遇到这种题就是想好从左右两边要什么信息，还有头节点参不参与，如果头节点参与，那么返回子节点不参与的最大快乐值相加，如果头节点不参与，那就返回子节点参与或者不参与的最大快乐值，然后相加，最后更新最大值。</li>
+<li>morris遍历<br><img src="/2024/02/03/2024-02-03-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/a21835f68d8104417616b2008b5b26d.png" alt="alt text"><br><img src="/2024/02/03/2024-02-03-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/027df02d70226ae2898cc9f8cd06fcb.png" alt="alt text"><br><img src="/2024/02/03/2024-02-03-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/f35bcb4bae2f3bc01a6ee180dafcddd.png" alt="alt text"><br>先序遍历：如果只出现一次，直接打印，如果出现两次，第一次的时候打印。<br><img src="/2024/02/03/2024-02-03-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/c95dab6c2ab8fb2acf6b5d0ead52198.png" alt="alt text"><br>中序遍历：如果只出现一次，直接打印，如果出现两次，第二次的时候打印，所以直接在没有左树的情况下打印即可。<br><img src="/2024/02/03/2024-02-03-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/bd0ea3cb8e72e0136d444f37138cb2f.png" alt="alt text"><br><img src="/2024/02/03/2024-02-03-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/d745f187c42c4d17c234215401f8a94.png" alt="alt text"><br>后序遍历：如果出现两次，第二次来到自己的时候逆序打印所有右边界，最后再逆序打印整个二叉树的右边界。逆序操作就是反转单链表。</li>
+<li>验证搜索二叉树（lc98）<br><img src="/2024/02/03/2024-02-03-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/94e7a950f82d3aaaa714af00ce98577.png" alt="alt text"><br>就是中序遍历的情况下，看当前值小于等于下一个值，那就是搜索二叉树，用morris遍历的方法做很好，熟悉morris遍历的代码。</li>
+<li>0到2的32次方-1这么多数，找到哪个数不存在，用有限变量<br>二分法，左边如果没满，就去左边继续二分找，肯定能找到一个区间没有数。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
 </search>
