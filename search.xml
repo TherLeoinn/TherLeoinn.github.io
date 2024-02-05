@@ -567,7 +567,7 @@
   <entry>
     <title>2024.02.04_学习日记</title>
     <url>/2024/02/04/2024-02-04-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p>天气：阴<br>学习地点：家<br>学习时长：4h</p>
+    <content><![CDATA[<p>天气：阴<br>学习地点：家<br>学习时长：8h</p>
 <span id="more"></span>
 <h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
 <li>mysql视图、存储过程、存储函数、触发器<br><img src="/2024/02/04/2024-02-04-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/04fa4ef00d4a18f2a3410a82f9dd1eb.png" alt="alt text"></li>
@@ -579,6 +579,24 @@
       </categories>
       <tags>
         <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024.02.05_学习日记</title>
+    <url>/2024/02/05/2024-02-05-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：阴<br>学习地点：家<br>学习时长：8h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>mysql 锁<br><img src="/2024/02/05/2024-02-05-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/30f971dbf73c808ad6444e9e23b6683.png" alt="alt text"></li>
+<li>机器学习部分<br><a href="https://cuijiahua.com/blog/2017/11/ml_1_knn.html">KNN算法</a>：看这个点跟其他点的距离，找最近的k个点，然后按照概率进行分类。<br><img src="/2024/02/05/2024-02-05-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/0b7987b3303aa8be62b4dd19031e82a.png" alt="alt text"><br>KNN算法不具有显性的学习过程。（machine learing文件夹中有KNN代码）<br><img src="/2024/02/05/2024-02-05-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/34485c9b1920e6f61e0f4de00638804.png" alt="alt text"><br>算法还需要计算错误率，错误率在可接受范围内才能用KNN算法。<br>生成图的时候记得把FontProperties函数改成全小写，函数名不改，就改下面的FontProperties&#x3D;font部分。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>机器学习</tag>
       </tags>
   </entry>
 </search>
