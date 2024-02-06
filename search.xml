@@ -599,4 +599,25 @@
         <tag>机器学习</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.02.06_学习日记</title>
+    <url>/2024/02/06/2024-02-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：阴<br>学习地点：家<br>学习时长：8h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>KNN算法的优缺点<br><img src="/2024/02/06/2024-02-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/b7cf4161cb880a37b4ad5e288fa587d.png" alt="alt text"></li>
+<li><a href="https://cuijiahua.com/blog/2017/11/ml_2_decision_tree_1.html">决策树</a><br><img src="/2024/02/06/2024-02-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/a4b9c738341fb8e512cf57a02bfb49c.png" alt="alt text"><br>Sklearn之使用决策树预测隐形眼睛类型<br>glassdecisiontree这个文件的代码，先处理文件的特征、类别，放入字典，生成pandas表，然后序列化，用graphviz可视化决策树，然后就可以做测试了。<br>决策树的优缺点<br><img src="/2024/02/06/2024-02-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/9cdbe01d0f3010f0b976448622b501d.png" alt="alt text"></li>
+<li><a href="https://cuijiahua.com/blog/2017/11/ml_4_bayes_1.html">朴素贝叶斯</a><br><img src="/2024/02/06/2024-02-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3711595727687b25984be33e57d6be0.png" alt="alt text"><br>朴素贝叶斯之过滤垃圾邮件<br><img src="/2024/02/06/2024-02-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/4416aa2a220c02c6789aa15c894d679.png" alt="alt text"></li>
+<li><a href="https://cuijiahua.com/blog/2017/11/ml_7_logistic_2.html">logistic回归</a><br><img src="/2024/02/06/2024-02-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/b74817a4865f138fb677d594d7077ec.png" alt="alt text"><br>从疝气病症状预测病马的死亡率<br><img src="/2024/02/06/2024-02-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/8bb7ae44d056996891b2bde56e5f7b2.png" alt="alt text"><br>当数据集较小时，我们使用梯度上升算法<br>当数据集较大时，我们使用改进的随机梯度上升算法<br>在Sklearn中，我们就可以根据数据情况选择优化算法，比如数据较小的时候，我们使用liblinear，数据较大时，我们使用sag和saga。<br>这个方法还要更改solver和max_iter值，才能达到收敛。<br><img src="/2024/02/06/2024-02-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/2a0cfe0dda1b090a2736fc53ac21498.png" alt="alt text"></li>
+<li><a href="https://cuijiahua.com/blog/2017/11/ml_9_svm_2.html">SVM（支持向量机）</a><br><img src="/2024/02/06/2024-02-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/d2bcbe510dbd01dce39a2f183abdda5.png" alt="alt text"><br>可以增加维度来分低纬度不可分的数据，用核函数。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>机器学习</tag>
+      </tags>
+  </entry>
 </search>
