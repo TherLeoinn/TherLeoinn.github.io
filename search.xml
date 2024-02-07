@@ -434,6 +434,7 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>Mysql</tag>
       </tags>
   </entry>
   <entry>
@@ -484,6 +485,7 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>Mysql</tag>
       </tags>
   </entry>
   <entry>
@@ -503,6 +505,7 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>Mysql</tag>
       </tags>
   </entry>
   <entry>
@@ -521,12 +524,13 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>Mysql</tag>
       </tags>
   </entry>
   <entry>
     <title>2024.02.02_学习日记</title>
     <url>/2024/02/02/2024-02-02-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p>天气：阴<br>学习地点：家<br>学习时长：4h</p>
+    <content><![CDATA[<p>天气：晴<br>学习地点：家<br>学习时长：4h</p>
 <span id="more"></span>
 <h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
 <li>滑动窗口（lc239困难）<br><img src="/2024/02/02/2024-02-02-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/6c76fe7712ad0b68d628d10ee7e3e8f.png" alt="Alt text"><br><img src="/2024/02/02/2024-02-02-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/6cf1e1516ba18a4319b553e7aea6d8e.png" alt="Alt text"><br>这个题是滑动窗口问题，如何用On的复杂度返回窗口的最大值最小值，这里用最大值举例。首先生成一个双端队列，双端队列左大右小，每进一个数，跟最右边的数比，如果小，就放右边，如果大，那队列弹出末尾元素，然后继续比较，然后需要删除过期元素以及返回最大值给数组，最后返回res数组即可，双端队列维护的这个区间就是最左边的数是最大值，L往右动一次那么最大值更新一次。最小值的话就是队列从小到大排列。<a href="https://leetcode.cn/problems/sliding-window-maximum/description/">记得看一下python版本。</a></li>
@@ -562,12 +566,13 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>Mysql</tag>
       </tags>
   </entry>
   <entry>
     <title>2024.02.04_学习日记</title>
     <url>/2024/02/04/2024-02-04-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p>天气：阴<br>学习地点：家<br>学习时长：8h</p>
+    <content><![CDATA[<p>天气：小雪<br>学习地点：家<br>学习时长：8h</p>
 <span id="more"></span>
 <h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
 <li>mysql视图、存储过程、存储函数、触发器<br><img src="/2024/02/04/2024-02-04-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/04fa4ef00d4a18f2a3410a82f9dd1eb.png" alt="alt text"></li>
@@ -579,12 +584,13 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>Mysql</tag>
       </tags>
   </entry>
   <entry>
     <title>2024.02.05_学习日记</title>
     <url>/2024/02/05/2024-02-05-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p>天气：阴<br>学习地点：家<br>学习时长：8h</p>
+    <content><![CDATA[<p>天气：大雪<br>学习地点：家<br>学习时长：8h</p>
 <span id="more"></span>
 <h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
 <li>mysql 锁<br><img src="/2024/02/05/2024-02-05-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/30f971dbf73c808ad6444e9e23b6683.png" alt="alt text"></li>
@@ -597,12 +603,13 @@
       <tags>
         <tag>算法</tag>
         <tag>机器学习</tag>
+        <tag>Mysql</tag>
       </tags>
   </entry>
   <entry>
     <title>2024.02.06_学习日记</title>
     <url>/2024/02/06/2024-02-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p>天气：阴<br>学习地点：家<br>学习时长：8h</p>
+    <content><![CDATA[<p>天气：大雪<br>学习地点：家<br>学习时长：8h</p>
 <span id="more"></span>
 <h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
 <li>KNN算法的优缺点<br><img src="/2024/02/06/2024-02-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/b7cf4161cb880a37b4ad5e288fa587d.png" alt="alt text"></li>
@@ -610,6 +617,27 @@
 <li><a href="https://cuijiahua.com/blog/2017/11/ml_4_bayes_1.html">朴素贝叶斯</a><br><img src="/2024/02/06/2024-02-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3711595727687b25984be33e57d6be0.png" alt="alt text"><br>朴素贝叶斯之过滤垃圾邮件<br><img src="/2024/02/06/2024-02-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/4416aa2a220c02c6789aa15c894d679.png" alt="alt text"></li>
 <li><a href="https://cuijiahua.com/blog/2017/11/ml_7_logistic_2.html">logistic回归</a><br><img src="/2024/02/06/2024-02-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/b74817a4865f138fb677d594d7077ec.png" alt="alt text"><br>从疝气病症状预测病马的死亡率<br><img src="/2024/02/06/2024-02-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/8bb7ae44d056996891b2bde56e5f7b2.png" alt="alt text"><br>当数据集较小时，我们使用梯度上升算法<br>当数据集较大时，我们使用改进的随机梯度上升算法<br>在Sklearn中，我们就可以根据数据情况选择优化算法，比如数据较小的时候，我们使用liblinear，数据较大时，我们使用sag和saga。<br>这个方法还要更改solver和max_iter值，才能达到收敛。<br><img src="/2024/02/06/2024-02-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/2a0cfe0dda1b090a2736fc53ac21498.png" alt="alt text"></li>
 <li><a href="https://cuijiahua.com/blog/2017/11/ml_9_svm_2.html">SVM（支持向量机）</a><br><img src="/2024/02/06/2024-02-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/d2bcbe510dbd01dce39a2f183abdda5.png" alt="alt text"><br>可以增加维度来分低纬度不可分的数据，用核函数。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>机器学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024.02.07_学习日记</title>
+    <url>/2024/02/07/2024-02-07-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：雾<br>学习地点：家<br>学习时长：5h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>bagging\boosting（集成方法）<br>bagging是从原始样本集抽取不同的样本集，然后每个样本集得到不同的模型。分类问题就采用投票的方式得到最后的结果，回归问题就用均值得到结果。这里面所有模型的重要性相同。<br>boosting跟bagging相似，但是不同的样本集权重不同。<br>区别：<br><img src="/2024/02/07/2024-02-07-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/23474e49261a55b9292bb9dbc9141a6.png" alt="alt text"></li>
+<li><a href="https://cuijiahua.com/blog/2017/11/ml_10_adaboost.html">Adaboost</a><br><img src="/2024/02/07/2024-02-07-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/be368aa8d8f1dbb30660a5832db5991.png" alt="alt text"><br>代码很简单</li>
+<li><a href="https://cuijiahua.com/blog/2017/11/ml_11_regression_1.html">回归</a><br>LWLR局部加权线性回归，过小的核可能导致过拟合现象，即训练集表现良好，测试集表现就渣渣了。</li>
+<li><a href="https://cuijiahua.com/blog/2017/12/ml_12_regression_2.html">岭回归</a><br>缩减方法（逐步线性回归或岭回归），就是将一些系数缩减成很小的值或者直接缩减为0。这样做，就增大了模型的偏差（减少了一些特征的权重），通过把一些特征的回归系数缩减到0，同时也就减少了模型的复杂度。消除了多余的特征之后，模型更容易理解，同时也降低了预测误差。但是当缩减过于严厉的时候，就会出现过拟合的现象，即用训练集预测结果很好，用测试集预测就糟糕很多。<br>预测乐高玩具套件的价格：<br>可以用岭回归交叉验证，可以看到哪些特征是重要的，然后预测的时候可以就用这些特征预测，回归与分类的不同点在于，前者预测连续类型变量，而后者预测离散类型变量。</li>
+<li>动态规划<br>建表，找表依赖关系，找可以填的base值，然后依次填表。</li>
 </ol>
 ]]></content>
       <categories>
