@@ -670,4 +670,21 @@
         <category>学习日记</category>
       </categories>
   </entry>
+  <entry>
+    <title>2024.02.10_学习日记</title>
+    <url>/2024/02/10/2024-02-10-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：家<br>学习时长：3h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>深度学习<br>ReLU激活函数：<br><img src="/2024/02/10/2024-02-10-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/9bbe62f3203215a7a9694257bf201a0.png" alt="alt text"><br>对于图像应用，我们经常在神经网络上使用卷积（Convolutional Neural Network），通常缩写为CNN。对于序列数据，例如音频，有一个时间组件，随着时间的推移，音频被播放出来，所以音频是最自然的表现。作为一维时间序列（两种英文说法one-dimensional time series &#x2F; temporal sequence）.对于序列数据，经常使用RNN，一种递归神经网络（Recurrent Neural Network），语言，英语和汉语字母表或单词都是逐个出现的，所以语言也是最自然的序列数据，因此更复杂的RNNs版本经常用于这些应用。<br>结构化数据意味着数据的基本数据库。例如在房价预测中，你可能有一个数据库，有专门的几列数据告诉你卧室的大小和数量，这就是结构化数据。非结构化数据是指比如音频，原始音频或者你想要识别的图像或文本中的内容。这里的特征可能是图像中的像素值或文本中的单个单词。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>神经网络与深度学习</tag>
+      </tags>
+  </entry>
 </search>
