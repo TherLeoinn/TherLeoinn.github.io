@@ -687,4 +687,21 @@
         <tag>神经网络与深度学习</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.02.11_学习日记</title>
+    <url>/2024/02/11/2024-02-11-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：家<br>学习时长：3h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>深度学习<br><img src="/2024/02/11/2024-02-11-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3be8c93e667cf2be0ef2520cf3a6f01.png" alt="alt text"><br>不能在隐藏层用线性激活函数，可以用ReLU或者tanh或者leaky ReLU或者其他的非线性激活函数，唯一可以用线性激活函数的通常就是输出层；<br><img src="/2024/02/11/2024-02-11-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/8e1d09d18bd2ac956cbf39832465f30.png" alt="alt text"><br>当你训练神经网络时，权重随机初始化是很重要的。对于逻辑回归，把权重初始化为0当然也是可以的。但是对于一个神经网络，如果你把权重或者参数都初始化为0，那么梯度下降将不会起作用。<br><img src="/2024/02/11/2024-02-11-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/142d0b10befac275d2eec9c9e6349e5.png" alt="alt text"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>神经网络与深度学习</tag>
+      </tags>
+  </entry>
 </search>
