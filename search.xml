@@ -718,4 +718,21 @@
         <tag>算法</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.02.21_学习日记</title>
+    <url>/2024/02/21/2024-02-21-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：雨<br>学习地点：学校<br>学习时长：6h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>深度学习<br><img src="/2024/02/21/2024-02-21-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/2761cfc7852f8b460043b70dc57c154.png" alt="alt text"><br>深度学习可能存在过拟合问题——高方差，有两个解决方法，一个是正则化，另一个是准备更多的数据，这是非常可靠的方法，但你可能无法时时刻刻准备足够多的训练数据或者获取更多数据的成本很高，但正则化通常有助于避免过拟合或减少你的网络误差。<br>其他正则化方法：数据扩增（翻转放大扭曲），Early stopping<br><img src="/2024/02/21/2024-02-21-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/a010227a2cc6a36cbf015fc0bc83e27.png" alt="alt text"><br>动量梯度下降法：比梯度下降好，可以加快梯度下降<br>RMSprop（加速梯度下降）：也能加速梯度下降<br>Adam优化算法：动量梯度和RMSprop结合的算法<br><img src="/2024/02/21/2024-02-21-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/ce0d06d63e383c15ee6db9aa3b1b148.png" alt="alt text"><br><img src="/2024/02/21/2024-02-21-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/476fd3605174f664f118b3f82a86573.png" alt="alt text"><br><img src="/2024/02/21/2024-02-21-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/337674dc404dcb514d2029aef421e44.png" alt="alt text"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>神经网络与深度学习</tag>
+      </tags>
+  </entry>
 </search>
