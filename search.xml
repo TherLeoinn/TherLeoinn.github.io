@@ -770,4 +770,25 @@
         <tag>神经网络与深度学习</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.02.26_学习日记</title>
+    <url>/2024/02/26/2024-02-26-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：阴<br>学习地点：学校<br>学习时长：8h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>深度学习<br>看了下RNN算法</li>
+<li>字节面试题<br><img src="/2024/02/26/2024-02-26-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/bd704ef373a9808de4d7b18438af220.png" alt="alt text"><br><img src="/2024/02/26/2024-02-26-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/be02b1bba906b53935a9eab7826057a.png" alt="alt text"><br>用线段树解，线段树记得看看，把所有身高排序，分别生成对应身高的排名，然后对其做线段树的更新数据操作。</li>
+<li>网易面试题<br><img src="/2024/02/26/2024-02-26-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/4dbfd3bfa944d23f4e0383c0566e045.png" alt="alt text"><br><img src="/2024/02/26/2024-02-26-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/5a97503e00507373579d1c9a316b35c.png" alt="alt text"><br><img src="/2024/02/26/2024-02-26-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/0b3b1559cbb2db8af945c5deced68bd.png" alt="alt text"><br><img src="/2024/02/26/2024-02-26-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3cfe607a4213fa7a4cbc30d0f8a21a4.png" alt="alt text"><br>用djkstra算法，生成一个魔法点和魔法边，如果当前点是魔法点，那接下来只能走实边，如果当前是实点，下面可以走魔法边也可以走实边。</li>
+<li>网易面试题<br><img src="/2024/02/26/2024-02-26-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/e8555848389c4eda1ab30423ccb012d.png" alt="alt text"><br><img src="/2024/02/26/2024-02-26-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3bdd5bed8cdde8558dbad580f0a0be8.png" alt="alt text"><br><img src="/2024/02/26/2024-02-26-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/4a672cd7fe7915f3b26ea2e8c47763b.png" alt="alt text"><br>并查集方法，反向从最后一个数字开始往前遍历，当该方块为0的时候，finger一下该点，finger函数是把该点变白并且周围所有点union。</li>
+<li>lc803打砖块<br>可以详细看一下这个题，也是逆向解并查集。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>神经网络与深度学习</tag>
+      </tags>
+  </entry>
 </search>
