@@ -754,23 +754,6 @@
       </tags>
   </entry>
   <entry>
-    <title>2025.02.23_学习日记</title>
-    <url>/2024/02/23/2025-02-23-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p>天气：雨<br>学习地点：学校<br>学习时长：6h</p>
-<span id="more"></span>
-<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
-<li>深度学习<br><img src="/2024/02/23/2025-02-23-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/06220b2ffe0d2f9d8dfac62dc2c2f00.png" alt="alt text"><br>valid卷积和same卷积：valid卷积会改变大小，越来越小，same卷积就是padding，往四周填充，最后矩阵大小不变。<br>最大池化：选最大值放入输出层。最大池化只是计算神经网络某一层的静态属性。<br><img src="/2024/02/23/2025-02-23-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/30c76ce78a2192b8f6f5821f5a60dd7.png" alt="alt text"><br>第一，池化层和最大池化层没有参数；第二卷积层的参数相对较少，前面课上我们提到过，其实许多参数都存在于神经网络的全连接层。观察可发现，随着神经网络的加深，激活值尺寸会逐渐变小，如果激活值尺寸下降太快，也会影响神经网络性能。示例中，激活值尺寸在第一层为6000，然后减少到1600，慢慢减少到84，最后输出softmax结果。我们发现，许多卷积网络都具有这些属性，模式上也相似。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>学习日记</category>
-      </categories>
-      <tags>
-        <tag>算法</tag>
-        <tag>神经网络与深度学习</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2024.02.26_学习日记</title>
     <url>/2024/02/26/2024-02-26-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
     <content><![CDATA[<p>天气：阴<br>学习地点：学校<br>学习时长：8h</p>
@@ -788,6 +771,53 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>神经网络与深度学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2025.02.23_学习日记</title>
+    <url>/2024/02/23/2024-02-23-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：雨<br>学习地点：学校<br>学习时长：6h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>深度学习<br><img src="/2024/02/23/2024-02-23-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/06220b2ffe0d2f9d8dfac62dc2c2f00.png" alt="alt text"><br>valid卷积和same卷积：valid卷积会改变大小，越来越小，same卷积就是padding，往四周填充，最后矩阵大小不变。<br>最大池化：选最大值放入输出层。最大池化只是计算神经网络某一层的静态属性。<br><img src="/2024/02/23/2024-02-23-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/30c76ce78a2192b8f6f5821f5a60dd7.png" alt="alt text"><br>第一，池化层和最大池化层没有参数；第二卷积层的参数相对较少，前面课上我们提到过，其实许多参数都存在于神经网络的全连接层。观察可发现，随着神经网络的加深，激活值尺寸会逐渐变小，如果激活值尺寸下降太快，也会影响神经网络性能。示例中，激活值尺寸在第一层为6000，然后减少到1600，慢慢减少到84，最后输出softmax结果。我们发现，许多卷积网络都具有这些属性，模式上也相似。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>神经网络与深度学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024.02.27_学习日记</title>
+    <url>/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：10h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>深度学习<br>GRU的优点是这是个更加简单的模型，所以更容易创建一个更大的网络，而且它只有两个门，在计算性上也运行得更快，然后它可以扩大模型的规模。但是LSTM更加强大和灵活，因为它有三个门而不是两个。如果你想选一个使用，我认为LSTM在历史进程上是个更优先的选择，所以如果你必须选一个，我感觉今天大部分的人还是会把LSTM作为默认的选择来尝试。虽然我认为最近几年GRU获得了很多支持，而且我感觉越来越多的团队也正在使用GRU，因为它更加简单，而且还效果还不错，它更容易适应规模更加大的问题。</li>
+<li>机器学习<br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/adaa751a98a120eda4dbd3ad0075a23.png" alt="alt text"><br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/fb03d8e7b863edd8c3c3a4779d301e9.png" alt="alt text"><br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/b9274a894a87bbbf54f70e4aa142691.png" alt="alt text"><br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/dc0cb0186b3f2287ebf85300394cdf1.png" alt="alt text"><br>神经网络是典型的不需要增加特征数目就能完成非线性分类问题的模型。<br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/15f7377af81a3e6c5f5ff4b02881f39.png" alt="alt text"><br>什么时候采用大规模的数据集呢，一定要保证模型拥有足够的参数（线索），对于线性回归&#x2F;逻辑回归来说，就是具备足够多的特征，而对于神经网络来说，就是更多的隐层单元。这样，足够多的特征避免了高偏差（欠拟合）问题，而足够大数据集避免了多特征容易引起的高方差（过拟合）问题。<br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/484626b8efc5129cf71a94c40fc4252.png" alt="alt text"><br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/35b9c15e56cfba084c0b51c8893ab6d.png" alt="alt text"></li>
+<li><a href="https://www.bilibili.com/video/BV1kQ4y1h7ok?p=18&spm_id_from=pageDriver&vd_source=d980f353cbdc64ff6011544e1f205261">有序表</a><br>AWS、阿里云里找5-6个热门项目，再找开源对应产品，最后自己编业务。</li>
+<li>括号题<br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/379738fd5dd8d99f17bb5ce1c3bbd0a.png" alt="alt text"><br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/1206a7d5c2144759c64fbd3957f3a99.png" alt="alt text"><br>看要添加多少括号，就是看左边添加多少左括号，右边添加多少右括号，用一个cnt变量从左往右遍历，左括号+1，右括号-1，如果cnt&#x3D;0遇到右括号，res+1，res代表添加左括号的量，最后还剩的cnt肯定大于等于0，如果为正，代表左括号多，就需要cnt个右括号补满，所以最后返回的是res+cnt。</li>
+<li>去重数字对<br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/1d2d9183c45e39f5713ad52792b1d15.png" alt="alt text"><br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/8cd8a9552fa744b46fc0ef02da59c38.png" alt="alt text"><br>哈希表统计所有数字，然后遍历哈希表，如果哈希表的数字+k也在哈希表内就返回该数字对。</li>
+<li>magic操作<br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/c7f7b6ae9ccd8b45899ce7c51b46268.png" alt="alt text"><br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/62bd1771e70c0198e46d6cd2bc11a64.png" alt="alt text"><br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/c9c6d6513f21fe67faa368061213912.png" alt="alt text"><br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3e63efee774568513abee836365c75d.png" alt="alt text"><br>先求出两个的和以及平均值，如果平均值相等，返回0，平均值不相等，把大的转给小的才行，转的区间只能是平均值相差范围内的，把多的排序，把平均值小的数组放进hashset里，把满足条件的cur从大平均值的去除，更新size，小的数组加上，更新size。ops+&#x3D;1.</li>
+<li>有效括号<br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/2d0eca8b30d1bed5e0d5ae6f1d47037.png" alt="alt text"><br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/f25ec0f3426398b228878fd694a3355.png" alt="alt text"><br>生成一个dp数组，dp代表以当前位置结束时，最多有多少有效括号，最后返回最大值就行。当前位置的值如果是（，那就是0，如果是），当前位置的最大值依赖前一个位置的dp值，前一个位置的dp值如果为4，那就看往前第五个位置，是不是左括号，如果是左括号，那就至少为6，2+4，然后还要再加上pre前一个位置的值，因为前面可能还有有效的括号。如果pre位置是），那就直接返回0，没有讨论的必要，因为如果是），前面还有左括号，那么前一个位置的值就不会是4。</li>
+<li>从大到小的栈<br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/9afc339b631cb1975bce3534ebd6bd6.png" alt="alt text"><br>有一个辅助栈，还有个原始栈，原始栈里弹出数字到辅助栈，然后原始栈继续弹，如果小于辅助栈的栈顶元素，就直接放进去，如果大于，那辅助栈的元素弹进原始栈，然后继续比较下面的数字，直到该元素小于辅助栈顶元素为止，放入辅助栈，接下来继续弹出，直到全部放进辅助栈，最后把辅助栈的全部弹进原始栈就生成了从大到小的栈。</li>
+<li>动态规划题<br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/40da81a470a55b822eb0b60a46dd224.png" alt="alt text"><br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/e33cf85536451c728aa12d08d4c11e2.png" alt="alt text"><br>当前位置选或者不选的问题，从左往右的尝试模型，如果当前位置是0，返回0，如果当前位置到终点，返回1，然后如果下一个位置是终点，就返回只能选当前位置的递归值，如果下一个位置不是，那就返回只选当前位置的结果和选当前位置和下一个位置的共同的结果，前提是这两个值小于27，最后还能通过动态规划防范简化。</li>
+<li>二叉树最大权值和<br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3547dc99e605688da97f257f953af77.png" alt="alt text"><br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/42d292e8234ca9e36076d6dbba91d41.png" alt="alt text"><br>basecase先写出来，当左右孩子都没有的时候，返回当前值。然后找左右孩子的最大值递归值，返回头节点加上该值即可。</li>
+<li>算法题<br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/82b6c861fbf85c63f283ae39bec4ed8.png" alt="alt text"><br>从右上角开始遍历，如果当前数大于aim，那下面的可以不用看了，往左走，然后如果小于aim，那左边可以不用看了，往下走，然后循环这样，直到找到为止。<br>还有个题就是一个matrix，左边都是0，右边都是1，怎么找到行里1最多的行，也是从右上角出发，看这一行有多少1，直到0停下，然后往下走，如果是0，就继续往下走，如果是1，看往左走可以不，如果可以就更新res的行，不能往左走就append这一行，最后一直更新。</li>
+<li>字节题<br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/f67f9e552d3ea17d59c4bc0dae95931.png" alt="alt text"><br>process方法表示前面都相等时，到当前位置还能不能继续选，核心思想是limit值从第一位开始看，如果arr里有值相等的话，就选该值，然后看后面一位，如果arr没有值相等，但有一个小于接近它的值，那就选该值，后面的值全选最大值即可，如果arr的值全比当前值大，就返回-1，上一级的值如果能往下降，那就降到更小的这个值，然后后面全选最大的，如果上一级的值不能往下降，那就继续向前返回-1.然后主函数里看process能不能做到，如果返回的ans！&#x3D;-1，那就返回ans，如果&#x3D;&#x3D;-1，那就证明第一个值都不能满足，那就位数减少一位，然后全选最大值。代码可以再看看<a href="https://www.bilibili.com/video/BV1DT411s7hp?p=42&vd_source=d980f353cbdc64ff6011544e1f205261">视频</a>。</li>
+<li>京东题<br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/306861c43b8defdefdc39cb7d5420ee.png" alt="alt text"><br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/c593d138376d5b8da037b0dc1e78d8f.png" alt="alt text"><br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/716603e31afccaa358e622ec4af7d39.png" alt="alt text"><br><img src="/2024/02/27/2024-02-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/31599fc283c2a32460736f91bbae78e.png" alt="alt text"><br>首先，当len长度&#x3D;&#x3D;k的时候，即前面已经收集到了k个，后面怎么删也没用了，所以返回最大值，如果len不到k，当index到达总长度的时候，就表示到总长度了还没有k个值，所以返回删除0个数字，最后一种情况就是没到k并且还有数字的情况，这个时候cur可以保留可以删除，但是当cur小于len或者cur大于len+1的时候，不用删除，保留就行，不会影响，因为1-k都还没有完全拼出来，但是如果cur&#x3D;&#x3D;len+1的时候，就可以保留也可以删除，此时选择递归两者的最小值即可。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>机器学习</tag>
         <tag>神经网络与深度学习</tag>
       </tags>
   </entry>
