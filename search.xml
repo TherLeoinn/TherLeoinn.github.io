@@ -860,6 +860,28 @@
 <li>lc97<br><img src="/2024/02/29/2024-02-29-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/50e3f199debb395cfdb237af6349c12.png" alt="alt text"><br>这个题不能用双指针，因为如果字符一样就没法判断总字符串来自哪里，只能用动态规划，样本对应模型，dp表表示当s1用i个数字，s2用j个数字，能否凑出s3的i+j个字符，第一行和第一列就是如果当前位置能否完全由s1或者s2前n个数字拼凑出来，当遇到不能拼出来的时候，后面就全是False，其他位置的依赖是，ij位置的值等于如果s3当前位置等于s1位置，并且i-1j位置为True，或者等于s2位置时，ij-1位置为True，那就返回tRUE,最后返回dp【-1】【-1】。</li>
 </ol>
 ]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>机器学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024.03.01_学习日记</title>
+    <url>/2024/03/01/2024-03-01-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：雨<br>学习地点：学校<br>学习时长：5h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>机器学习在管理学上的应用<br>《“放管服”改革与纳税人满意度:施策重点与优化路径——基于机器学习方法》，这篇文章用了随机森林模型对问卷的特征重要性进行排名。<br>《高管个人特征与公司业绩———基于机器学习的经验证据》，这篇文章用boosting回归树对模型进行预测，用前一年数据训练，后一年数据检验，叫做一年滚动窗口期的拟合结构，然后对比rmse等数据，看添加了一些特征后的模型是不是有更好的表现，同时对比其他机器学习方法看boosting回归树是不是有更好的拟合效果。然后还对特征重要性进行排名，看高管特征对公司业绩重要性高不高。还选了高重要性的特征单独拿出来看和公司业绩的依赖图。</li>
+<li>lc lcr155<br><img src="/2024/03/01/2024-03-01-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/be7f70c42f59a86b61456514b6a882b.png" alt="alt text"><br>搜索二叉树的中序遍历就能生成有序数组，所以这个题就用中序遍历，然后把打印部分替换成自己想要的操作，这个题中的操作就是把每次遍历到的cur的left指针指向pre，把pre的right指针指向cur，当pre不存在的时候，把head设成cur表示是有序数组的head节点，每次操作部分还需要将pre替换成cur，下一次cur到下一个位置时，pre才能更新。最后还需要把头节点head的左指针指向pre，把pre的right指针指向head，此时pre在最后一个位置。</li>
+<li>self的用法<br>self是全局变量，放在函数外面，然后函数内部想用这个变量就加self，还有用其他函数的时候也要加self。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
       <tags>
         <tag>算法</tag>
         <tag>机器学习</tag>
