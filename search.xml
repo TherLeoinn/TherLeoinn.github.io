@@ -887,4 +887,21 @@
         <tag>机器学习</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.03.02_学习日记</title>
+    <url>/2024/03/02/2024-03-02-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：3h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>腾讯面试题<br><img src="/2024/03/02/2024-03-02-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/7ec785ab96826e12a9186db3e90ab99.png" alt="alt text"><br><img src="/2024/03/02/2024-03-02-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/db5b1b3dd333e3b0bc5ff42b2dd0ca5.png" alt="alt text"><br>返回左树的相等头节点数量和右数的数量再加上如果左树和右数一样的话+1，不一样+0。判断左树和右数是不是一样是另一个函数，如果左树和右树只有一个为空，那就false，都为空返回true，如果左节点的值等于右节点，并且左节点左树和右节点左树也要相等递归，右数也一样。</li>
+<li>lc编辑距离<br><img src="/2024/03/02/2024-03-02-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/f95873051911f3bfc436f46a0120468.png" alt="alt text"><br>用动态规划，dp表含义是word1的前i个和word2的前j个变成一样需要的最少代价。当最后一个字符相同，就返回dpi-1，j-1.不同的话，返回dpi-1j-1 +1，这是替换掉最后一个字符的情况。还有删除最后一个字符的情况，如果要删word1的最后一个字符，就返回1+dpi-1j，如果要删2的最后一个字符就返回1+dpij-1，最后返回这三个值的最小值即可。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
 </search>
