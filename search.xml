@@ -904,4 +904,21 @@
         <tag>算法</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.03.03_学习日记</title>
+    <url>/2024/03/03/2024-03-03-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：3h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>lc224<br><img src="/2024/03/03/2024-03-03-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/c655e047698bff24dba24104020d629.png" alt="alt text"><br><img src="/2024/03/03/2024-03-03-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/cae0ae27e58d5a8bf6ff32191bd28ed.png" alt="alt text"><br>栈是用来存放左括号前面的东西以及左括号前的符号，还要准备一个sign用来看当前num的符号，如果遇到数字，num就更新，遇到+-号，ans更新，num重置到下一个位置的数字，更新为0，sign更新为当前遍历到的符号。如果遇到左括号，把此时的res以及sign添加到栈，然后ans更新为0，sign更新为+，遇到右括号的时候，括号里面的计算完了，就要把当前括号里的和左括号前面的ans计算一下，所以ans里面最后的num*sign+res更新一下，得到ans值，然后乘以stack的pop符号，再加上stack的pop值，num要更新为0，因为当前值计算完了。最后还要继续往后遍历，把最后的num值要加上。</li>
+<li>lc11<br><img src="/2024/03/03/2024-03-03-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/e9ef97e4271b5f57cfb4f67602116a9.png" alt="alt text"><br>用一个res记录最大值，用双指针解，如果最左边小于最右边，那res&#x3D;小边*宽度，然后小边往中间移动，为什么这样能更新最大值，因为如果小边往里移动，就算大边的外面有更大的值能更新更大的宽度，但是既然大边已经往里移动了，那大边的外面肯定是有比小边更大的值，这个更大的值往中间移动了就证明这个更大的值有一个更大宽度的res，所以可以这样更新res。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
 </search>
