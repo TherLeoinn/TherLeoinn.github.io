@@ -923,4 +923,28 @@
         <tag>算法</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.03.04_学习日记</title>
+    <url>/2024/03/04/2024-03-04-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：雨<br>学习地点：学校<br>学习时长：10h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li><a href="https://mp.weixin.qq.com/s/56cI3vcPEoQ3y6WVAqeoaA">情绪词统计</a><br>通过统计积极和消极情绪词的数量，再进行加减乘除操作得到一个词，判断年报公司的情绪。</li>
+<li><a href="https://www.bilibili.com/video/BV1rB4y1p7ga/?p=11&spm_id_from=pageDriver">snownlp包做评论分类</a><br>比较新的方法，可以直接用。</li>
+<li><a href="https://www.bilibili.com/video/BV1LQ4y1Q7xv/?spm_id_from=333.788&vd_source=d980f353cbdc64ff6011544e1f205261">LdA主题模型</a></li>
+<li>lc55<br><img src="/2024/03/04/2024-03-04-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/cb302d0e08ee760abb4d43315c9027c.png" alt="alt text"><br>这个题很简单，就是看当前位置往后跳能不能跳到终点，当前位置jump+i就是能跳到的最右位置，如果大于max，就更新max值，但是有两个条件完成才能更新max值，第一个是max值要大于等于i，如果小的话，前面的max值到不了i位置，无法往后更新，第二个条件是i+jump要大于max值，如果不大于就不用更新。</li>
+<li>lc45跳跃游戏2<br><img src="/2024/03/04/2024-03-04-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/5fa39b6ddf244aff2c802bedce94e25.png" alt="alt text"><br>这个题是要返回到达终点的最小步数，最小步数用res记录，类似于宽度优先遍历，走一步的最大范围内遍历，遍历下一次走的最大宽度，然后下一次在第二步的范围内继续更新，找最大值，直到nxt大于等于边界就弹出res步数。</li>
+<li>lc1306跳跃游戏3<br><img src="/2024/03/04/2024-03-04-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/fb74b7759a14f553aff7e84865aef25.png" alt="alt text"><br>这个题是i可以往左右跳，看最后能不能跳到值为0的位置，定义一个函数，如果i跳到边界外，返回false，i跳到0，返回true，准备一个set，每次i的位置放进set，如果i跳到set里的位置，就证明重复了，返回false，最后递归左右两个位置。</li>
+<li>lc739<br><img src="/2024/03/04/2024-03-04-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/2b52dd1ec1226b670da949ca7f96f79.png" alt="alt text"><br>这个题用单调栈，单调栈的用法就是生成一个栈，并且栈内元素始终是单调的，不满足单调的元素要及时pop掉。这个题就是从后往前遍历，当遇到小的值就添加进栈，并且更新ans数组值，ans值&#x3D;栈顶元素-i。如果遇到更大的值，就把小的值pop掉，然后再放入栈中，最后返回ans数组。</li>
+<li>lc554<br><img src="/2024/03/04/2024-03-04-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/e39d52ceaedb4d5c3526d80a5feb792.png" alt="alt text"><br>这个题要返回最小穿过的砖块数量，可以想到把每一行的缝隙列统计一下，用哈希表记录一下当前缝隙出现的个数，但注意不能遍历到最后一列，最后一列全都是缝隙，最后返回n-哈希表里value的最大值即可，用defaultdict记录，default设置为0，表示当不存在最大值的时候返回0。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>机器学习</tag>
+      </tags>
+  </entry>
 </search>
