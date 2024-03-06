@@ -950,7 +950,7 @@
   <entry>
     <title>2024.03.05_学习日记</title>
     <url>/2024/03/05/2024-03-05-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p>天气：雨<br>学习地点：学校<br>学习时长：10h</p>
+    <content><![CDATA[<p>天气：雨<br>学习地点：学校<br>学习时长：8h</p>
 <span id="more"></span>
 <h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
 <li>机器学习<br>看了snownlp等方法做情感分析。</li>
@@ -968,6 +968,28 @@
       <tags>
         <tag>算法</tag>
         <tag>机器学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024.03.06_学习日记</title>
+    <url>/2024/03/06/2024-03-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：雨<br>学习地点：学校<br>学习时长：10h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>爬虫<br>爬虫内容需要找到更好的视频资源。</li>
+<li>lc402<br><img src="/2024/03/06/2024-03-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/5ce0699debda70eb5630d8cda245900.png" alt="alt text"><br>类似于单调栈的做法，栈内只保留从小到大的顺序，如果遍历到当前元素比栈顶元素更大，那就要弹出栈顶，k-1，然后入栈，最后要把多余元素和初始的0剔除掉，所以用lstrip函数剔除左边的0，用切片剔除后面的元素。</li>
+<li>lc316<br><img src="/2024/03/06/2024-03-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/e387d805890f6cd7bcfda736d630ee6.png" alt="alt text"><br>跟上一个题一样，用一个栈保留从小到大的字母，同时用一个counter函数记录每个字母出现的个数，每遍历一个，counter当前字母的数量-1，不能让后面的重复字母进栈，所以要用一个set哈希表来记录当前字母是否进栈，如果进set表了，那就不能再进了，但是如果从stack弹出了，这个字符又可以重新进stack了，所以stack弹出以后，set也要discard这个字母，最后返回栈内元素即可。</li>
+<li>lc321<br><img src="/2024/03/06/2024-03-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/ebbf5334e2b24714f2eeda898efa0aa.png" alt="alt text"><br>定义两个函数，一个是取出最大值函数，一个是合并两个数组并且按照顺序排。取出最大值函数就跟上面一样，用单调栈的思想，当前位置的值如果大于栈顶元素，栈顶就pop，每个字符都要append进栈，n-k是要丢弃的值长度，每pop一个n-k就要继续-1，直到0为止跳出循环。合并函数就是看谁大，数组比较大小就是比较第一个字符的大小，然后每次把大的数的【0】字符加到res数组里即可。最后返回i从0到k的所有情况，nums1取i个，nums2取k-i个，如果i和k-i都小于数组长度，那就返回这些的最大值。</li>
+<li>lc56<br><img src="/2024/03/06/2024-03-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/fd9e0e4808159b0fee3ffbdc580f6e3.png" alt="alt text"><br>这个题是合并一堆区间，首先排序这堆数组，根据数组0位置排序，用sorted(nums, key&#x3D;lambda x:x[0])表示，定义一个judge函数，判断两个数组能否合并成一个数组，判断条件就是看首尾数字的大小有没有交叉。然后主函数就是遍历整个排序数组，res放进第一个小数组，用res的最后一个数组和遍历到的数组比较，类似于单调栈，如果遍历到的能合并就合并，不能合并res就append这个数组，合并的时候直接改res【-1】的后面一个元素即可，两者的最大值。</li>
+<li>lc5manacher算法<br><img src="/2024/03/06/2024-03-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3d6b157fb4629f379b5d5b112a54bf9.png" alt="alt text"><br>c和r代表中心和往外扩的最大边界，把所有字符拆中间两边加上#，再初始化一个数组，每个数组的值代表当前位置的最大半径。先初始化一个最小半径，如果i在r外面，最小半径为1，如果i在r里面，最小半径就是r-i和与c对称点的最小半径的最小值，然后再遍历，如果最小半径左右的值相等，最小半径+1，直到不相等为止，然后更新最大边界以及最大半径和最大中心，因为parr【i】循环时多加了1，所以最后切片要注意是从pmax_idx-pmax+2开始切，切到pmax_idx+pmax为止，2为跨度，因为要筛掉#，最后返回str（‘’.join(res)）。</li>
+<li>lc332<br><img src="/2024/03/06/2024-03-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/6a71ba9b96f13fce879102345b1c2fb.png" alt="alt text"><br><img src="/2024/03/06/2024-03-06-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/fefeab8f9be3ad680d938a1f9e98f3f.png" alt="alt text"><br>一个dp数组就能遍历完，因为dp依赖左边和上面的值，所以dp从做往右填就行，i大于coin的情况就直接用range跳过coin前的部分即可，最后返回最后一个值即可。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
       </tags>
   </entry>
 </search>
