@@ -1011,4 +1011,22 @@
         <tag>算法</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.03.08_学习日记</title>
+    <url>/2024/03/08/2024-03-08-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：3h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>论文<br>爬虫到指定段落，在3文件夹下面，newest.py文件里。</li>
+<li>lc415<br><img src="/2024/03/08/2024-03-08-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/d5c35cceffad3ede43d56e8bb5f9401.png" alt="alt text"><br>双指针，从后往前遍历，不要计算，直接用字符串相加的方式就行。</li>
+<li>lc394<br><img src="/2024/03/08/2024-03-08-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/8ff3574729e2e19381f26fe610adc9e.png" alt="alt text"><br>这个题用栈，跟以前计算器的思路不同，他是直接全部进栈，遇到】才停下来，然后统计括号里的词，用str，遇到左括号以后再看前面有没有num，然后str&#x3D;int num * str，弹入栈内，每次循环前str和num要清空，最后返回栈内的，判断一个字符串是不是数字用isdigit。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
 </search>
