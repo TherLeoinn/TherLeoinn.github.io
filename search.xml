@@ -1029,4 +1029,26 @@
         <tag>算法</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.03.09_学习日记</title>
+    <url>/2024/03/09/2024-03-09-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：5h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>lc1004<br><img src="/2024/03/09/2024-03-09-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/bec9d99432ad6323736b601d4f369bd.png" alt="alt text"><br>双指针解法，题意换一个思路就是，一个滑动窗口里最多有k个0，如果超过k个0，left指针就右移，如果没超过，right右移，最后返回res即可。</li>
+<li>lc22<br><img src="/2024/03/09/2024-03-09-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/dcd983c6e599fdbad3f8f22c0168993.png" alt="alt text"><br>这个题用dfs，跟全排列有点像，如果左边小于右边就return，如果左边和右边都&#x3D;n，res就加上sol，然后分别递归添加（）的情况。</li>
+<li>lc45<br><img src="/2024/03/09/2024-03-09-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/cf731d176168aa27cc7791e9e386204.png" alt="alt text"><br>这个题类似于dfs，之前做过，每次跳跃都可以在一个区间内，max生成这个区间的最大值，一直更新这个max值，下次遍历就在上一个区间右边遍历到max位置即可，最后返回res。</li>
+<li>lc735<br><img src="/2024/03/09/2024-03-09-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3fa29b579ce849891e530e5be1bf61a.png" alt="alt text"><br>看到这个题想到有些要保留，有些要剔除，想到栈的数据结构，然后分情况讨论，设置一个bool值，如果bool为真就添加，然后想逻辑，如果遍历位置小于0，并且栈内有元素，栈顶大于0并且栈顶大于遍历位置绝对值，那么就pop，然后再看栈顶元素是不是正数，如果是，bool为假，再看栈顶是不是等于遍历位置，如果是，继续pop，最后返回stack。</li>
+<li>lc53<br><img src="/2024/03/09/2024-03-09-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/28417202ba93475d81e016303d52a3a.png" alt="alt text"><br>因为数字有正负，所以要考虑加不加前面的数字，cur就是看当前位置数字为尾和不以当前位置为尾的情况的最大值，然后res就是记录整个数组的最大值。</li>
+<li>lc451<br><img src="/2024/03/09/2024-03-09-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/288bafb92583099c1b63dd745726c95.png" alt="alt text"><br>两种解法，第一种投机取巧用counter函数生成一个map，然后counter有most_common()函数，可以按照value最大值往下排序，然后打印即可。第二种解法用大根堆，生成一个堆就是heapq.heapify(s),然后往里heapq.heappush值，把counter里的值push进去，push一对（-值，元素），-的意思就是生成大根堆，没有负就是小根堆，然后返回heapq.heappop(堆)【1】用‘’连接起来。</li>
+<li>lc3最大不重复子串<br>看到这种子串、子数组之类的题，就想到以当前位置结尾，最长子串长度是多少，然后生成一个数组，返回这个数组最大值即可。每到一个位置，就可以想当前位置的值能不能由前一个位置的值得到。当前位置的数字上一次出现的位置，还有前一个位置的值.用一个哈希表记录每个位置的字符上次出现的位置，每到一个位置，看这个位置的字符在不在哈希表里，不在的话p1&#x3D;i+1，在的话就p1&#x3D;i-前一个位置哈希值，p2&#x3D;pre+1，pre的意思就是前一个位置的字符的能到的最远距离，pre要一直更新，从第一个位置往后一直更新，pre每次要更新成cur，hash表上一次当前位置的值也要更新成当前的i位置。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
 </search>
