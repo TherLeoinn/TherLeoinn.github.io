@@ -1074,9 +1074,13 @@
   <entry>
     <title>2024.03.11_学习日记</title>
     <url>/2024/03/11/2024-03-11-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：6h</p>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：5h</p>
 <span id="more"></span>
-<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2>]]></content>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>做好简历和博客简历部分</li>
+<li>lc1345<br><img src="/2024/03/11/2024-03-11-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/aeea5cb53f2f942fe97509efed7dd0a.png" alt="alt text"><br>这个题就是bfs，bfs用队列解决，用一个哈希表记录每个元素对应的下标，方便之后在队列里遍历这些重复值，有一个优化就是每次遍历完当前重复值以后，就把哈希表里的这个重复值删掉，这样下次遍历到重复值位置的时候就不用花时间重复遍历这些了。</li>
+</ol>
+]]></content>
       <categories>
         <category>学习日记</category>
       </categories>
