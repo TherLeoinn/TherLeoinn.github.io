@@ -1107,4 +1107,23 @@
         <tag>个人简历</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.03.12_学习日记</title>
+    <url>/2024/03/12/2024-03-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：7h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>lc752<br><img src="/2024/03/12/2024-03-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/d5001eefc315f8d8447c436686266ad.png" alt="alt text"><br>这个题用bfs做，bfs模板要记住，visited数组，queue的初始化，然后遍历queue，对每一个符合要求的入队列，不符合的continue，最后step+1，还要设置up和down函数。<br><img src="/2024/03/12/2024-03-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/1bac84a7a54b124552231e59961e2c1.png" alt="alt text"></li>
+<li>lc76<br><img src="/2024/03/12/2024-03-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/fe7aa085123ec9cd6f55db48442b72e.png" alt="alt text"><br>滑动窗口解决，滑动窗口模板要记住，不满足条件r一直往右，满足了l就左移找到最小的，然后判断能不能更新最小值，最后l右移重新开始移动r。need表记录需要哪些数字以及个数，needcnt记录t还需要多少个字母。<br><img src="/2024/03/12/2024-03-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/cc2c2e0bdeadee2bc886837ad17418a.png" alt="alt text"></li>
+<li>lc567<br><img src="/2024/03/12/2024-03-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/c2996733e9827b1b946064fa74f7ac7.png" alt="alt text"><br>这个题也是滑动窗口，是一个固定长度的滑动窗口，一个cnt记录target词频，一个need记录需要多少个字母，然后滑动窗口，最后判断need是不是为0，滑动的时候要注意条件判断，看left和right在不在cnt内，不在cnt内就不用管。<br><img src="/2024/03/12/2024-03-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/2ddc8a2cbabe2c8554ab226647fc3dc.png" alt="alt text"></li>
+<li>lc438<br><img src="/2024/03/12/2024-03-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/5d9ea8a694e03d97c2ceba95c43fb87.png" alt="alt text"><br>跟上个题一样，就是加个res数组返回第一个值。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
 </search>
