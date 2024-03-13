@@ -1126,4 +1126,22 @@
         <tag>算法</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.03.13_学习日记</title>
+    <url>/2024/03/13/2024-03-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：7h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>lc121<br><img src="/2024/03/13/2024-03-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/4d2337291ea9d5277fd908974f019ff.png" alt="alt text"><br>这个题只有一次买卖机会，所以遍历一次找到前面的最小值，最小值就用一个变量记录，同时记录ans，每次遍历到一个位置都更新ans，最后返回ans即可。</li>
+<li>lc122<br><img src="/2024/03/13/2024-03-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/26baf9df4b65164693c0f6423fe7b1a.png" alt="alt text"><br>这个题就是从左往右遍历，因为可以买完马上卖，所以当i- i-1 大于0的时候，profit+&#x3D;tmp，每次有上涨的时候都买就行了。</li>
+<li>lc123<br><img src="/2024/03/13/2024-03-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/bbbc4fdc165c81b6eb7204d3f3f8c62.png" alt="alt text"><br>这个题用<a href="https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iii/solutions/2199035/yi-tao-mo-ban-ji-xing-dai-ma-bi-zhao-yan-0ap8/">动态规划</a>，前面的题都可以用动态规划，当天的dp值取决于前一天的值，再看看代码，dp的含义就是当前第i天第一次买，第一次卖，第二次买，第二次卖。<br><img src="/2024/03/13/2024-03-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/4b2b6dcc19086e2a65de79b9882535b.png" alt="alt text"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
 </search>
