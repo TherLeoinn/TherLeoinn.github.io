@@ -1144,4 +1144,23 @@
         <tag>算法</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.03.14_学习日记</title>
+    <url>/2024/03/14/2024-03-14-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：7h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>lc198<br><img src="/2024/03/14/2024-03-14-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/206fdceece426f63aeedabe0a818fef.png" alt="alt text"><br>这个题就是当前dp值&#x3D; 偷n-2个，第n-1个不偷，偷当前 + 偷前n-1个，当天不偷，用两个变量就能滚动起来，最后返回最后的值。</li>
+<li>lc213<br><img src="/2024/03/14/2024-03-14-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/d731502f74b2d1f591708ebac143ce3.png" alt="alt text"><br>这个题就是有一个条件，首尾不能同时偷，所以就看前n-1个和后n-1个谁更大。<br><img src="/2024/03/14/2024-03-14-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/581db3e3afd36dc765ebbec39eefd0f.png" alt="alt text"></li>
+<li>lc337<br><img src="/2024/03/14/2024-03-14-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/128d9a4f158b3e54b8067518163f91a.png" alt="alt text"><br>这个题用递归，递归返回两个值，一个值是选根节点，一个不选。然后分别递归左边和右边，选根节点的时候是左边不选+右边不选+根值，不选根节点是左边选或者不选的最大值+右边最大值，最后dfs（root）</li>
+<li>lc18<br><img src="/2024/03/14/2024-03-14-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/320c42fde41b99361525c8176e3cc0d.png" alt="alt text"><br>四个数相加，首先看两数相加，就是左右指针，往中间移动。三数相加就是固定一个位置，剩下位置满不满足两数相加。四数相加就是先固定一个位置，然后筛掉一些条件，比如当前值+后面连续三个值如果大于target，就可以break了，或者+最后三个值小于t，也可以break。然后固定第二个数，同理，再进行两数之和左右指针即可。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
 </search>
