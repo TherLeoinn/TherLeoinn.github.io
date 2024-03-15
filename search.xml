@@ -1163,4 +1163,27 @@
         <tag>算法</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.03.15_学习日记</title>
+    <url>/2024/03/15/2024-03-15-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：7h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>pytorch学了导入数据集</li>
+<li>lc416<br><img src="/2024/03/15/2024-03-15-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/d23a78fd5253a06bc41d8c0609dcadb.png" alt="alt text"><br>这个题用动态规划做，dpij的含义是取前i个值的和能不能&#x3D;j，返回bool值。如果当前值要大于j-numi，那么就不能选当前值，dpij&#x3D;dpi-1,j，否则，就看是选或者不选的情况，dpij&#x3D;dpi-1,j | dpi-1,j-num[i-1]，因为numi-1就是第i个值。然后动态压缩要注意，0-1背包问题，动态压缩要注意逆序，因为ij依赖上面和左上方的值，如果正序遍历的话，那么左上方的值会先被计算出来，覆盖掉原本需要的左上方的值，所以要逆序。</li>
+<li>lc518<br><img src="/2024/03/15/2024-03-15-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/54014f4e567f246388f87b59892e8a1.png" alt="alt text"><br>动态规划，这个题是完全背包，不用倒叙。<br><img src="/2024/03/15/2024-03-15-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/81168cffc0e4293da0b7efa2887754a.png" alt="alt text"></li>
+<li>lc72编辑距离<br>前面做过很多次了，动态规划，考虑最后一个字符是不是相等，相等的话，就看dp[i-1][j-1],不相等就看让前面i-1或者j-1个相等，然后删掉最后一个字符，或者前面变成一样，最后一个替换，三个的最小值。</li>
+<li>lc312<br><img src="/2024/03/15/2024-03-15-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/6a278cd70879cd0d95c0ce811d70c6e.png" alt="alt text"><br>这个题动态规划，要往左右两边加1，这个题dp含义是ij之内，打破气球得到的最大值，不包括ij，所以两边加1，这样dp[0][n+1]就是满足题意。然后当i大于等于j就不满足题意，为0。然后对每一个ij，最后一个选择都是扎破最后一个气球，所以逆向思维就是最后一个扎破i到j的任意一个返回值，最后选最大的。所以dp[i][j] &#x3D; max(dp[i][j], dp[i][k]+dp[k][j]+nums[k]*nums[i]*nums[j]).<br><img src="/2024/03/15/2024-03-15-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/e221e281c538db440d2629724dafb00.png" alt="alt text"></li>
+<li>算法题<br><img src="/2024/03/15/2024-03-15-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/546c5012adb9d616af04ed769505103.png" alt="alt text"><br>看当前字符，如果相等dpij&#x3D;dp[i-1][j-1]+1,不相等就等于两个分别少一个的最大值。<br><img src="/2024/03/15/2024-03-15-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/249e0e4eb4f9fd88cf6f670d7644b8d.png" alt="alt text"></li>
+<li>算法题<br><img src="/2024/03/15/2024-03-15-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/4c767a3e95827258fb8933900cfb285.png" alt="alt text"><br>dp含义就是ij范围内回文子串最大长度，当ij相等就是i+1j-1dp值+2，不相等就是看要i或者要j的dp值哪个更大，初始化就是ij相等时候返回1。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>Pytorch</tag>
+      </tags>
+  </entry>
 </search>
