@@ -506,6 +506,7 @@
       <tags>
         <tag>算法</tag>
         <tag>Mysql</tag>
+        <tag>KMP</tag>
       </tags>
   </entry>
   <entry>
@@ -525,6 +526,7 @@
       <tags>
         <tag>算法</tag>
         <tag>Mysql</tag>
+        <tag>manacher</tag>
       </tags>
   </entry>
   <entry>
@@ -1129,7 +1131,7 @@
   <entry>
     <title>2024.03.13_学习日记</title>
     <url>/2024/03/13/2024-03-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：7h</p>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：6h</p>
 <span id="more"></span>
 <h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
 <li>lc121<br><img src="/2024/03/13/2024-03-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/4d2337291ea9d5277fd908974f019ff.png" alt="alt text"><br>这个题只有一次买卖机会，所以遍历一次找到前面的最小值，最小值就用一个变量记录，同时记录ans，每次遍历到一个位置都更新ans，最后返回ans即可。</li>
@@ -1147,7 +1149,7 @@
   <entry>
     <title>2024.03.14_学习日记</title>
     <url>/2024/03/14/2024-03-14-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：7h</p>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：8h</p>
 <span id="more"></span>
 <h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
 <li>lc198<br><img src="/2024/03/14/2024-03-14-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/206fdceece426f63aeedabe0a818fef.png" alt="alt text"><br>这个题就是当前dp值&#x3D; 偷n-2个，第n-1个不偷，偷当前 + 偷前n-1个，当天不偷，用两个变量就能滚动起来，最后返回最后的值。</li>
@@ -1189,7 +1191,7 @@
   <entry>
     <title>2024.03.17_学习日记</title>
     <url>/2024/03/17/2024-03-17-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：7h</p>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：8h</p>
 <span id="more"></span>
 <h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
 <li>pytorch学了目标检测以及基本的代码，卷积池化激活全连接。</li>
@@ -1202,6 +1204,31 @@
       <tags>
         <tag>算法</tag>
         <tag>Pytorch</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024.03.18_学习日记</title>
+    <url>/2024/03/18/2024-03-18-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：8h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>KMP<br>KMP用一个next数组，next数组记录前一个位置的前后缀相等的长度，0位置是-1，1位置是0，后面就依次根据前面得出。具体看视频。</li>
+<li>lc452<br><img src="/2024/03/18/2024-03-18-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/97b91c7992583598798108048346e96.png" alt="alt text"><br><img src="/2024/03/18/2024-03-18-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/06323bae41c980c350b0fecb3c9cf13.png" alt="alt text"><br>这个题就是看交集，先排序，按照第一个数字排序，start,end表示交集的两边，每次更新交集就行，遍历的时候如果左边的边大于end，那么start,end就变成遍历到的那个区间，并且res+1，否则，更新区间，左边界&#x3D;原始左边界和遍历到位置的左边界的最大值，右边&#x3D;原始右边界和遍历到位置的右边界的最小值，最后res还要+1，因为最后一个区间还没加上。</li>
+<li>lc886<br><img src="/2024/03/18/2024-03-18-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/8c1b0b442e51ce2f3119ab1a56270cb.png" alt="alt text"><br>这个题用并查集，并查集模板记住，一个find，一个union。然后初始化p数组，每个p的值就是本身，然后设置g数组defaultdict(list)，对每个dislike的数组都分别把g对应的加上，表示每个位置对应的不喜欢的人。然后遍历所有位置，并且看每个位置的不喜欢的值遍历一下，看其父亲节点是不是相等，相等就false，然后对每个j的父节点的父节点设成对应数组里的g【i】【0】的父节点。</li>
+<li>优先级队列（从小到大排序，插入和删除都可以重新排序）<br><img src="/2024/03/18/2024-03-18-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/850265dd7dd26643a78bc47abdbee21.png" alt="alt text"></li>
+<li><a href="https://leetcode.cn/problems/smallest-k-lcci/solutions/402287/python38chong-ji-chu-pai-xu-suan-fa-shi-jian-bu-fe/">所有排序</a></li>
+<li>大顶堆<br><img src="/2024/03/18/2024-03-18-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/a939890a9b327d881c5ba795a9107a0.png" alt="alt text"><br>py只能实现heapq的小顶堆，大顶堆可以取相反数放进去heapify，然后当遇到比堆顶大的数，实际是比堆顶小的数，那就弹出堆顶，最后返回res。<br><img src="/2024/03/18/2024-03-18-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/b338d8cb897d5a6c69f909d4e3c4e8e.png" alt="alt text"></li>
+<li>搜索二叉树<br><img src="/2024/03/18/2024-03-18-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/e060679e68d93197223c50cab8c9608.png" alt="alt text"><br><img src="/2024/03/18/2024-03-18-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/ed089d71a25948090569a479de0afaa.png" alt="alt text"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>Pytorch</tag>
+        <tag>并查集</tag>
+        <tag>排序算法</tag>
       </tags>
   </entry>
 </search>
