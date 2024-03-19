@@ -25,6 +25,8 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>动态规划</tag>
+        <tag>图的遍历</tag>
       </tags>
   </entry>
   <entry>
@@ -48,6 +50,9 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>BFS</tag>
+        <tag>DFS</tag>
+        <tag>动态规划</tag>
       </tags>
   </entry>
   <entry>
@@ -81,6 +86,7 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>双指针</tag>
       </tags>
   </entry>
   <entry>
@@ -101,6 +107,8 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>双指针</tag>
+        <tag>前缀和</tag>
       </tags>
   </entry>
   <entry>
@@ -120,6 +128,7 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>动态规划</tag>
       </tags>
   </entry>
   <entry>
@@ -142,6 +151,9 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>动态规划</tag>
+        <tag>栈</tag>
+        <tag>加强堆</tag>
       </tags>
   </entry>
   <entry>
@@ -161,6 +173,7 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>差分法</tag>
       </tags>
   </entry>
   <entry>
@@ -179,6 +192,8 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>动态规划</tag>
+        <tag>RMQ</tag>
       </tags>
   </entry>
   <entry>
@@ -241,6 +256,8 @@
       <tags>
         <tag>算法</tag>
         <tag>hexo配置问题</tag>
+        <tag>BFS</tag>
+        <tag>动态规划</tag>
       </tags>
   </entry>
   <entry>
@@ -261,6 +278,10 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>manacher</tag>
+        <tag>动态规划</tag>
+        <tag>双指针</tag>
+        <tag>RMQ</tag>
       </tags>
   </entry>
   <entry>
@@ -281,6 +302,8 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>双指针</tag>
+        <tag>前缀和</tag>
       </tags>
   </entry>
   <entry>
@@ -318,6 +341,7 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>排序算法</tag>
       </tags>
   </entry>
   <entry>
@@ -339,6 +363,7 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>二叉树遍历</tag>
       </tags>
   </entry>
   <entry>
@@ -363,6 +388,10 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>图的遍历</tag>
+        <tag>拓扑排序</tag>
+        <tag>前缀树</tag>
+        <tag>dijkstra</tag>
       </tags>
   </entry>
   <entry>
@@ -389,6 +418,7 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>回溯算法</tag>
       </tags>
   </entry>
   <entry>
@@ -410,6 +440,8 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>回溯算法</tag>
+        <tag>大数据</tag>
       </tags>
   </entry>
   <entry>
@@ -435,6 +467,7 @@
       <tags>
         <tag>算法</tag>
         <tag>Mysql</tag>
+        <tag>回溯算法</tag>
       </tags>
   </entry>
   <entry>
@@ -486,6 +519,8 @@
       <tags>
         <tag>算法</tag>
         <tag>Mysql</tag>
+        <tag>并查集</tag>
+        <tag>BFS</tag>
       </tags>
   </entry>
   <entry>
@@ -547,6 +582,8 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>滑动窗口</tag>
+        <tag>单调栈</tag>
       </tags>
   </entry>
   <entry>
@@ -569,6 +606,8 @@
       <tags>
         <tag>算法</tag>
         <tag>Mysql</tag>
+        <tag>动态规划</tag>
+        <tag>二叉树遍历</tag>
       </tags>
   </entry>
   <entry>
@@ -587,6 +626,7 @@
       <tags>
         <tag>算法</tag>
         <tag>Mysql</tag>
+        <tag>大数据</tag>
       </tags>
   </entry>
   <entry>
@@ -774,6 +814,9 @@
       <tags>
         <tag>算法</tag>
         <tag>神经网络与深度学习</tag>
+        <tag>并查集</tag>
+        <tag>djkstra</tag>
+        <tag>线段树</tag>
       </tags>
   </entry>
   <entry>
@@ -821,6 +864,8 @@
         <tag>算法</tag>
         <tag>机器学习</tag>
         <tag>神经网络与深度学习</tag>
+        <tag>动态规划</tag>
+        <tag>栈</tag>
       </tags>
   </entry>
   <entry>
@@ -844,6 +889,8 @@
       <tags>
         <tag>算法</tag>
         <tag>机器学习</tag>
+        <tag>动态规划</tag>
+        <tag>栈</tag>
       </tags>
   </entry>
   <entry>
@@ -868,6 +915,9 @@
       <tags>
         <tag>算法</tag>
         <tag>机器学习</tag>
+        <tag>动态规划</tag>
+        <tag>双指针</tag>
+        <tag>栈</tag>
       </tags>
   </entry>
   <entry>
@@ -904,6 +954,7 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>动态规划</tag>
       </tags>
   </entry>
   <entry>
@@ -923,6 +974,9 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>BFS</tag>
+        <tag>双指针</tag>
+        <tag>栈</tag>
       </tags>
   </entry>
   <entry>
@@ -947,6 +1001,8 @@
       <tags>
         <tag>算法</tag>
         <tag>机器学习</tag>
+        <tag>BFS</tag>
+        <tag>单调栈</tag>
       </tags>
   </entry>
   <entry>
@@ -970,6 +1026,12 @@
       <tags>
         <tag>算法</tag>
         <tag>机器学习</tag>
+        <tag>并查集</tag>
+        <tag>DFS</tag>
+        <tag>动态规划</tag>
+        <tag>双指针</tag>
+        <tag>栈</tag>
+        <tag>回溯算法</tag>
       </tags>
   </entry>
   <entry>
@@ -992,6 +1054,9 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>manacher</tag>
+        <tag>动态规划</tag>
+        <tag>栈</tag>
       </tags>
   </entry>
   <entry>
@@ -1011,6 +1076,8 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>动态规划</tag>
+        <tag>栈</tag>
       </tags>
   </entry>
   <entry>
@@ -1029,6 +1096,8 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>双指针</tag>
+        <tag>栈</tag>
       </tags>
   </entry>
   <entry>
@@ -1051,6 +1120,9 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>DFS</tag>
+        <tag>动态规划</tag>
+        <tag>滑动窗口</tag>
       </tags>
   </entry>
   <entry>
@@ -1071,6 +1143,8 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>BFS</tag>
+        <tag>回溯算法</tag>
       </tags>
   </entry>
   <entry>
@@ -1088,6 +1162,7 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>BFS</tag>
       </tags>
   </entry>
   <entry>
@@ -1126,6 +1201,8 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>BFS</tag>
+        <tag>滑动窗口</tag>
       </tags>
   </entry>
   <entry>
@@ -1144,6 +1221,7 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>动态规划</tag>
       </tags>
   </entry>
   <entry>
@@ -1186,6 +1264,7 @@
       <tags>
         <tag>算法</tag>
         <tag>Pytorch</tag>
+        <tag>动态规划</tag>
       </tags>
   </entry>
   <entry>
@@ -1204,6 +1283,7 @@
       <tags>
         <tag>算法</tag>
         <tag>Pytorch</tag>
+        <tag>动态规划</tag>
       </tags>
   </entry>
   <entry>
@@ -1229,6 +1309,30 @@
         <tag>Pytorch</tag>
         <tag>并查集</tag>
         <tag>排序算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024.03.19_学习日记</title>
+    <url>/2024/03/19/2024-03-19-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：8h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>lc450<br><img src="/2024/03/19/2024-03-19-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/9866d5258ea77563eaeaf60e09fbaa1.png" alt="alt text"><br><img src="/2024/03/19/2024-03-19-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/0f345f13c9366121d7066a7f3ff25ae.png" alt="alt text"><br><img src="/2024/03/19/2024-03-19-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/50d39569205185f1d6708f3ac11703b.png" alt="alt text"><br>删除一个节点以后，关键的是要用右子树的最小值或者左子树的最大值来替换当前节点，同时递归删除对应子树的节点。</li>
+<li>滑动窗口<br><img src="/2024/03/19/2024-03-19-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/aba2d914bcbec953bcaf88794043974.png" alt="alt text"><br>该算法的核心思想是利用双端队列维持当前滑动窗口内的最大值。队列的首部始终保存当前窗口的最大值的索引，而队列本身保持递减顺序。这样每次滑动窗口移动时，只需要比较新进入窗口的元素与队尾元素；如果更大，则弹出队尾元素，直到该条件不满足为止，然后将新元素加入队列。同时，检查队首元素是否已经不在窗口内，如果是，则将其从队首移除。这种方法的时间复杂度为 O(n)，因为每个元素最多被压入和弹出队列一次。<br><img src="/2024/03/19/2024-03-19-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/351beb133549052ac42d0bceec280c2.png" alt="alt text"></li>
+<li>解数独<br><img src="/2024/03/19/2024-03-19-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/85fdf31d78cee1f1f9af37c623444f6.png" alt="alt text"><br><img src="/2024/03/19/2024-03-19-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/4db96c329aee72ca081f3a7f34d0155.png" alt="alt text"><br><img src="/2024/03/19/2024-03-19-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/d29b23498837a5b632f21d0092b157b.png" alt="alt text"><br>这段代码实现了一个典型的回溯算法来解决数独问题。它首先遍历每个空白位置（用.表示），然后尝试填充数字1到9，每次填充后都会递归地尝试解决剩下的数独。如果在某个位置上所有数字都不能导致一个有效解决方案，算法会回溯到之前的状态，尝试下一个数字。这个过程一直持续，直到找到有效解决方案或确定数独无解。</li>
+<li>汉明重量<br><img src="/2024/03/19/2024-03-19-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/e5ce87adcf46f2057a7e955bc28d570.png" alt="alt text"><br><img src="/2024/03/19/2024-03-19-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/a71e5162feb8521b408d7a795b70ae8.png" alt="alt text"><br>删掉最后一个1就是n&amp;&#x3D;n-1。二进制表达方式就是bin(8)</li>
+<li>煎饼排序<br><img src="/2024/03/19/2024-03-19-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/9ea531a7f2c9b0945d7b87619e0eddd.png" alt="alt text"><br><img src="/2024/03/19/2024-03-19-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/5ec30bd7542137cd413cfd8da4daeb9.png" alt="alt text"><br>煎饼排序的基本思想是在每一步找到未排序部分的最大元素，并通过最多两次翻转操作将其移动到未排序部分的末尾。</li>
+<li>和为k的数组<br><img src="/2024/03/19/2024-03-19-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/4127b2d9d0b6d676eeb6c56b9946249.png" alt="alt text"><br><img src="/2024/03/19/2024-03-19-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/73ed612967c39fbe4648e573cef2112.png" alt="alt text"><br>遍历数组，计算每个位置的前缀和，并使用字典 dic 记录每个前缀和出现的次数。在遍历过程中，如果存在前缀和为 pre - k 的子数组，说明存在一个和为 k 的子数组，因此更新计数器 count。最后返回 count 即可得到满足条件的子数组数量。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>前缀和</tag>
+        <tag>回溯算法</tag>
+        <tag>BST</tag>
       </tags>
   </entry>
 </search>
