@@ -1335,4 +1335,26 @@
         <tag>BST</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.03.20_学习日记</title>
+    <url>/2024/03/20/2024-03-20-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：8h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>字符串相乘<br><img src="/2024/03/20/2024-03-20-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/4e5557428c297d030e79ed544a27187.png" alt="alt text"><br><img src="/2024/03/20/2024-03-20-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/a4b36773373131519fe28cfe5ca3acc.png" alt="alt text"><br>map函数第一个是函数，第二个是目标，map(str, res)就是把res所有内容全部执行str函数。</li>
+<li>着色问题<br><img src="/2024/03/20/2024-03-20-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/0e6ca55c64ad9f2910f6a49463a89ee.png" alt="alt text"><br><img src="/2024/03/20/2024-03-20-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/1a658fdcaecf6d0d65aca0d8473c353.png" alt="alt text"><br>低阶岛屿问题，bfs，dfs都能做，bfs就是遍历四个方向，遍历完同时放进队列里。</li>
+<li>区间交集<br><img src="/2024/03/20/2024-03-20-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/6aedf9ff9c18c6941dd4a3bada79b8a.png" alt="alt text"><br><img src="/2024/03/20/2024-03-20-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/60f47d4804415f09cd0125a07789bd1.png" alt="alt text"><br>使用了两个指针 i 和 j 分别遍历两个区间列表，通过比较当前两个区间的起始点和结束点，判断它们是否相交，如果相交则计算交集的起始点和结束点，并将其加入结果列表中。在每次比较后，根据两个区间的结束点的大小关系移动相应的指针。最后返回计算得到的交集区间列表。</li>
+<li>滑动谜题<br><img src="/2024/03/20/2024-03-20-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/d1a58986d1967a226fc3f5c96b57d87.png" alt="alt text"><br><img src="/2024/03/20/2024-03-20-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/bc7c48b5850f9aae3ac8bd48027dc2c.png" alt="alt text"><br><img src="/2024/03/20/2024-03-20-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/7de60578a61bf27c62e4fe9fc234fcf.png" alt="alt text"><br>BFS经典套路，其实就是把字符串变成123450，找到初始的0位置然后bfs到相邻的位置，step+1，用队列，每次还要判断是否visited过。</li>
+<li>二分问题<br><img src="/2024/03/20/2024-03-20-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/7585993f1de8029aad2ca02cef91cef.png" alt="alt text"><br><img src="/2024/03/20/2024-03-20-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/2ef4b9020fdd34e2d89515d5578f95c.png" alt="alt text"><br>二分问题，记住一种，while l &lt; r, 那么下面l就要更新为mid-1，或者r更新为mid，这是死的，返回最小速度，就返回l。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>BFS</tag>
+        <tag>二分法</tag>
+      </tags>
+  </entry>
 </search>
