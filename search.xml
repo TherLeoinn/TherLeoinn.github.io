@@ -1377,4 +1377,25 @@
         <tag>二分法</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.03.23_学习日记</title>
+    <url>/2024/03/23/2024-03-23-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：5h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>XGboost和GBDT的区别<br><img src="/2024/03/23/2024-03-23-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/c2d349c8037fb8103d9dc14493db81b.png" alt="alt text"><br>XGBT代码在XGBOOST文件夹里。</li>
+<li>二分算法<br><img src="/2024/03/23/2024-03-23-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/4f890d56e0352abee308282f6aecbb4.png" alt="alt text"><br><img src="/2024/03/23/2024-03-23-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/88e186daf667dad752462d161cc51a7.png" alt="alt text"><br>lower_bound 函数是实现了二分查找的下界算法，用于在有序列表中找到第一个大于等于目标值的元素的索引。</li>
+<li>移动0到最后<br><img src="/2024/03/23/2024-03-23-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/1785d3d0eee02bed1895bd5a645ae4f.png" alt="alt text"><br><img src="/2024/03/23/2024-03-23-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/aeeb377cf0d8294f5ccb99855c5d978.png" alt="alt text"></li>
+<li>双指针<br><img src="/2024/03/23/2024-03-23-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/7679ca5d7aef648f9b6dd78af70772b.png" alt="alt text"><br><img src="/2024/03/23/2024-03-23-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/2b3ab35a6b0811a9f5c0762fe7af872.png" alt="alt text"><br><img src="/2024/03/23/2024-03-23-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/c63156ab8982111c5fc1648de0f40d3.png" alt="alt text"></li>
+<li>双指针、前缀和二分解法<br><img src="/2024/03/23/2024-03-23-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/a81c7c073a075522f4b08b429297d0f.png" alt="alt text"><br><img src="/2024/03/23/2024-03-23-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3520eb829f7db6b00557db02320df85.png" alt="alt text"><br>滑动窗口解法，比较简单<br><img src="/2024/03/23/2024-03-23-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/dbf1bc935cafbbf7b4c8723407271a7.png" alt="alt text"><br>使用前缀和数组 sums 来快速计算任意子数组的和，并通过二分查找来确定满足条件的子数组的左右边界，从而找到长度最小的满足条件的子数组。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>二分法</tag>
+      </tags>
+  </entry>
 </search>
