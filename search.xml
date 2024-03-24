@@ -1395,6 +1395,33 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>双指针</tag>
+        <tag>前缀和</tag>
+        <tag>滑动窗口</tag>
+        <tag>二分法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024.03.24_学习日记</title>
+    <url>/2024/03/24/2024-03-24-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：5h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>双指针<br><img src="/2024/03/24/2024-03-24-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/151d124945edd54896350ab08901d32.png" alt="alt text"><br><img src="/2024/03/24/2024-03-24-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/6aea9f49bfa18ea9a4ef93232ed7d4d.png" alt="alt text"><br>使用两个指针i和j表示当前考虑的子数组的左右边界。使用哈希表hashmap记录当前窗口内每种水果的数量。使用cnt记录当前窗口内包含的不同水果的种类数。当cnt超过2时，通过移动左指针i来缩小窗口，直到窗口内再次包含最多两种水果为止。在每一步中，如果当前窗口满足条件（即，最多包含两种水果），则更新最大子数组长度res。</li>
+<li>双指针<br><img src="/2024/03/24/2024-03-24-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/8088b9c5516440d551556cca348a360.png" alt="alt text"><br><img src="/2024/03/24/2024-03-24-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/b2bed4e04dca52eed51b48241b6a9b7.png" alt="alt text"><br><img src="/2024/03/24/2024-03-24-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/11146b2b571cb81998a6e86bf7d8787.png" alt="alt text"><br>通过维护两个指针来实现滑动窗口，其中 i 和 j 分别表示左右指针。在移动右指针的过程中，不断更新需要匹配的字符的哈希表 needMap 和需要匹配的字符数量 needCnt，并在满足条件时，尽可能地压缩左边界 i，以找到最小的满足条件的窗口，并更新结果字符串 res。</li>
+<li>算法题<br><img src="/2024/03/24/2024-03-24-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/614238cbda19055c2ecb8ef238f71fb.png" alt="alt text"><br><img src="/2024/03/24/2024-03-24-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/2688ce899952ab97f1cd74a7e0dd5fd.png" alt="alt text"><br>纯coding，没什么技巧，要分清楚边界问题。<br><img src="/2024/03/24/2024-03-24-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/4b4232fd705845a6bdaa0f01238a8fd.png" alt="alt text"><br>这是另一个螺旋数组的解法，只要求顺时针打印，通过四个循环遍历的方式，依次遍历了螺旋矩阵的上、右、下、左四个边界，每次遍历完一个边界后，更新相应的边界指针，并判断是否需要终止遍历。最终返回结果列表 res 即为螺旋遍历的顺序。</li>
+<li>数组题总结<br>数组题主要就是二分、双指针、滑动窗口。</li>
+<li>翻转任意两个链表<br><img src="/2024/03/24/2024-03-24-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/84591492520a4d68c08fd06d3b1cd88.png" alt="alt text"><br><img src="/2024/03/24/2024-03-24-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/d624eb1a9a8c70856bb409331609f54.png" alt="alt text"></li>
+<li>快慢指针<br><img src="/2024/03/24/2024-03-24-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/4af3d36893f173978a8229295e21f5f.png" alt="alt text"><br>快指针先走n+1步，因为快指针走到空，慢指针要走到删除位置的前一个。</li>
+<li>链表相交<br><img src="/2024/03/24/2024-03-24-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/40a3919aff385c8320dff7c85e1c2bc.png" alt="alt text"><br><img src="/2024/03/24/2024-03-24-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/332efe6be18d7927c7a17d03fd80818.png" alt="alt text"></li>
+<li>环形链表<br><img src="/2024/03/24/2024-03-24-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/6490ba64536521e26800eee693489d8.png" alt="alt text"><br>数学方法，快慢指针然后都变成慢指针。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
         <tag>二分法</tag>
       </tags>
   </entry>
