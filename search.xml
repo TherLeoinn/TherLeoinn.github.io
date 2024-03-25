@@ -1422,7 +1422,36 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>双指针</tag>
         <tag>二分法</tag>
+        <tag>链表</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024.03.25_学习日记</title>
+    <url>/2024/03/25/2024-03-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：5h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>哈希表<br><img src="/2024/03/25/2024-03-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/851dd6f91adbc5b153c25bb6e81b459.png" alt="alt text"></li>
+<li>快乐数<br><img src="/2024/03/25/2024-03-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/9853f76000621c77984a7ff8ca3cded.png" alt="alt text"><br>想求数字的每一个值可以把数字转化成字符串再遍历</li>
+<li>四数相加<br><img src="/2024/03/25/2024-03-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/48fdc023c5e5a365be989740994c2b7.png" alt="alt text"></li>
+<li>四数之和&#x3D;target<br>这个题记得注意剪枝和continue以及break的使用。</li>
+<li>KMP lc28题<br><img src="/2024/03/25/2024-03-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/92f2736b449f12b90893cd22843ae49.png" alt="alt text"><br><img src="/2024/03/25/2024-03-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/7c93e520eca8984836d17ff1531e443.png" alt="alt text"></li>
+<li>KMP题<br><img src="/2024/03/25/2024-03-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/a374b2f9cea5589d289c6f3340e3fda.png" alt="alt text"><br>(n % (n - kmplist[-1]) &#x3D;&#x3D; 0): 这部分判断是判断字符串的长度能否被重复子串的长度整除。n 是字符串 s 的长度，(n - kmplist[-1]) 表示重复子串的长度，因为 KMP 算法的 kmplist[-1] 表示了字符串 s 中重复子串的长度。如果 n 能够被 (n - kmplist[-1]) 整除，说明存在重复子串。</li>
+<li>双指针<br><img src="/2024/03/25/2024-03-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/1434b0f6d5fcb1ea8b560724fa0c981.png" alt="alt text"></li>
+<li>栈<br><img src="/2024/03/25/2024-03-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/66428ba91d034ca42ddb84f5a19c73d.png" alt="alt text"><br>try和except的用法注意。一般概率比较大的时候用try。</li>
+<li>双端队列经典题<br><img src="/2024/03/25/2024-03-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/47d7a02e4d8b6ddd46be6bd43e50156.png" alt="alt text"><br>这种方法的关键在于双端队列的使用，它保持了一个有效的递减序列。队列的头部总是当前窗口最大值的索引，每次窗口滑动时，只需查看队列头部的索引对应的值即可。这样可以在O(n)的时间复杂度内解决问题，其中n是数组的长度。</li>
+<li>小根堆<br><img src="/2024/03/25/2024-03-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/58a5054e9b2116b551e4b8da51e7c26.png" alt="alt text"><br>详细看看堆的用法。注意堆的heapreplace和heappush用法。</li>
+<li>二叉树的迭代遍历<br><img src="/2024/03/25/2024-03-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/2c6e0bb6123e346022e18cfe8963d1f.png" alt="alt text"><br><img src="/2024/03/25/2024-03-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/b8a54d755a38bbb95791e535f30fb17.png" alt="alt text"><br><img src="/2024/03/25/2024-03-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/403e2819937781b78ee369c666a87c6.png" alt="alt text"></li>
+<li>二叉树的层序遍历<br><img src="/2024/03/25/2024-03-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/c2dadf818e764a48e50504bbb308eed.png" alt="alt text"><br>打印从右往左看的所有节点就是用层序遍历，遍历每一层，如果遍历到最右边，就把该节点放到res中。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
       </tags>
   </entry>
 </search>
