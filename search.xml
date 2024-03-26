@@ -1430,7 +1430,7 @@
   <entry>
     <title>2024.03.25_学习日记</title>
     <url>/2024/03/25/2024-03-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：5h</p>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：10h</p>
 <span id="more"></span>
 <h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
 <li>哈希表<br><img src="/2024/03/25/2024-03-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/851dd6f91adbc5b153c25bb6e81b459.png" alt="alt text"></li>
@@ -1445,6 +1445,33 @@
 <li>小根堆<br><img src="/2024/03/25/2024-03-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/58a5054e9b2116b551e4b8da51e7c26.png" alt="alt text"><br>详细看看堆的用法。注意堆的heapreplace和heappush用法。</li>
 <li>二叉树的迭代遍历<br><img src="/2024/03/25/2024-03-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/2c6e0bb6123e346022e18cfe8963d1f.png" alt="alt text"><br><img src="/2024/03/25/2024-03-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/b8a54d755a38bbb95791e535f30fb17.png" alt="alt text"><br><img src="/2024/03/25/2024-03-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/403e2819937781b78ee369c666a87c6.png" alt="alt text"></li>
 <li>二叉树的层序遍历<br><img src="/2024/03/25/2024-03-25-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/c2dadf818e764a48e50504bbb308eed.png" alt="alt text"><br>打印从右往左看的所有节点就是用层序遍历，遍历每一层，如果遍历到最右边，就把该节点放到res中。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>KMP</tag>
+        <tag>双指针</tag>
+        <tag>栈</tag>
+        <tag>哈希表</tag>
+        <tag>队列</tag>
+        <tag>二叉树</tag>
+        <tag>小根堆</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024.03.26_学习日记</title>
+    <url>/2024/03/26/2024-03-26-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：5h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>二叉树迭代<br><img src="/2024/03/26/2024-03-26-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/80ed6c6ffa8cfe197961407156fd9d8.png" alt="alt text"></li>
+<li>二叉树众数<br><img src="/2024/03/26/2024-03-26-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/91a02ac260e776d894159bd5ad16a0f.png" alt="alt text"><br>注意self的用法还有一些细节。</li>
+<li>二叉树题目<br><img src="/2024/03/26/2024-03-26-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/0454ecae0504a9393f1238ebeb77abc.png" alt="alt text"></li>
+<li>二叉树题目<br><img src="/2024/03/26/2024-03-26-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3e8183f223ecd4828ce4456e5f8ba45.png" alt="alt text"></li>
+<li>二叉树插入<br><img src="/2024/03/26/2024-03-26-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/00959224c911fefb1abe1d1d71a78fb.png" alt="alt text"></li>
 </ol>
 ]]></content>
       <categories>
