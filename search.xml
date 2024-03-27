@@ -1479,6 +1479,33 @@
       </categories>
       <tags>
         <tag>算法</tag>
+        <tag>二叉树</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024.03.27_学习日记</title>
+    <url>/2024/03/27/2024-03-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：5h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>删除二叉树节点<br><img src="/2024/03/27/2024-03-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/ebb6d1ecb6e19fac6532e93d136e3d9.png" alt="alt text"><br>如果左右节点都有，那删掉root节点的时候，就要把左边的节点放到右节点最左边的那个节点的左边才行，才满足BST。</li>
+<li>累加树<br><img src="/2024/03/27/2024-03-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/0fd3c2ad455bb7e547023849e783a40.png" alt="alt text"><br>用一个全局变量来记录当前值要加上的值。</li>
+<li>组合问题<br><img src="/2024/03/27/2024-03-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/147c6329415ea592f91e49d991012d2.png" alt="alt text"></li>
+<li>组合问题求和<br><img src="/2024/03/27/2024-03-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/b095e811af2c99d764d2b3c36c110bd.png" alt="alt text"></li>
+<li>组合问题电话<br><img src="/2024/03/27/2024-03-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/d8e60bf5b9ac47ff6b65b96c7994f9d.png" alt="alt text"></li>
+<li>组合问题<br><img src="/2024/03/27/2024-03-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/08c1bfc643db70bd17501f67ec5103a.png" alt="alt text"></li>
+<li>组合问题<br><img src="/2024/03/27/2024-03-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/62f65574c26159a3e24169420082ae0.png" alt="alt text"></li>
+<li>分割回文串<br><img src="/2024/03/27/2024-03-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/6826fda8de54edd016ca648503a3ec2.png" alt="alt text"></li>
+<li>子集问题<br><img src="/2024/03/27/2024-03-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/ae24d1b8e7195756fcfcdb44f9c90a3.png" alt="alt text"><br>注意和子集问题的区别</li>
+<li>递增子序列<br><img src="/2024/03/27/2024-03-27-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/79b9d686e2dfbe45f72e3db97a262c5.png" alt="alt text"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>二叉树</tag>
       </tags>
   </entry>
 </search>
