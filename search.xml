@@ -1509,4 +1509,30 @@
         <tag>二叉树</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.03.28_学习日记</title>
+    <url>/2024/03/28/2024-03-28-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：7h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>全排列<br><img src="/2024/03/28/2024-03-28-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/61fc5587657157132a8497813be6d9f.png" alt="alt text"></li>
+<li>全排列2<br><img src="/2024/03/28/2024-03-28-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/fc003a2383c8ba9588bb309b6bf7b0c.png" alt="alt text"></li>
+<li>N皇后<br><img src="/2024/03/28/2024-03-28-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/65f09dd105dea457328a7cabbbd666b.png" alt="alt text"></li>
+<li>解数独<br><img src="/2024/03/28/2024-03-28-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/44b5c4fbdf37a6c105e51e0280e145b.png" alt="alt text"></li>
+<li>贪心<br><img src="/2024/03/28/2024-03-28-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/ce6e3f5e72577d8708aaeb739442f38.png" alt="alt text"><br>计算相邻元素之间的差值，然后判断这些差值是否符合摆动序列的定义。如果符合条件，就将摆动序列长度加1。最后返回计算得到的最大摆动序列长度。</li>
+<li>贪心<br><img src="/2024/03/28/2024-03-28-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/14fbb6207363a363b5604c211ee7ed7.png" alt="alt text"></li>
+<li>贪心<br><img src="/2024/03/28/2024-03-28-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/28bbdeb28d562143431969b8f1b215a.png" alt="alt text"></li>
+<li>贪心<br><img src="/2024/03/28/2024-03-28-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/67dc330fe8fa129c7634dcfbe1e1ae7.png" alt="alt text"></li>
+<li>贪心<br><img src="/2024/03/28/2024-03-28-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/b06f0d819cfa141f2d31e555f68043e.png" alt="alt text"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>回溯算法</tag>
+        <tag>贪心算法</tag>
+      </tags>
+  </entry>
 </search>
