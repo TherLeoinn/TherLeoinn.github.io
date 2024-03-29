@@ -1535,4 +1535,24 @@
         <tag>贪心算法</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.03.29_学习日记</title>
+    <url>/2024/03/29/2024-03-29-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：5h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>动态规划<br><img src="/2024/03/29/2024-03-29-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/6bfdc11df00b1cc8c968d8f59dc2eb3.png" alt="alt text"></li>
+<li>动态规划<br><img src="/2024/03/29/2024-03-29-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/4dedc7ef3f01ce8c6c2783024e38194.png" alt="alt text"><br>dp[i]：分拆数字i，可以得到的最大乘积为dp[i]。</li>
+<li>动态规划<br><img src="/2024/03/29/2024-03-29-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/c2a28147a46fbe42c710c4b746df11a.png" alt="alt text"><br>dp[i] ： 1到i为节点组成的二叉搜索树的个数为dp[i]。</li>
+<li>动态规划<br><img src="/2024/03/29/2024-03-29-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/984da402fd157f0a9ea1abd73de33ea.png" alt="alt text"></li>
+<li>动态规划<br><img src="/2024/03/29/2024-03-29-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3e05a55be76373dfab535f5bc6215c8.png" alt="alt text"></li>
+<li>动态规划<br><img src="/2024/03/29/2024-03-29-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3e9ded19d638ae125d37c1d81c2aa8e.png" alt="alt text"></li>
+<li>动态规划<br><img src="/2024/03/29/2024-03-29-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/8121662eef99b101f85cb47c44b73d8.png" alt="alt text"></li>
+</ol>
+]]></content>
+      <tags>
+        <tag>算法</tag>
+        <tag>动态规划</tag>
+      </tags>
+  </entry>
 </search>
