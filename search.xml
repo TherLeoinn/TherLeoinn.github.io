@@ -1573,4 +1573,28 @@
         <tag>动态规划</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.04.01_学习日记</title>
+    <url>/2024/04/01/2024-04-01-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：8h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>完全背包<br><img src="/2024/04/01/2024-04-01-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/d535b273e8edc260572e0077823ace3.png" alt="alt text"></li>
+<li>完全背包<br><img src="/2024/04/01/2024-04-01-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/705308fe43170a5d27b23db7e59c307.png" alt="alt text"><br>这个题记得要排列问题，外层循环是amount，组合问题外层循环是物体。</li>
+<li>背包<br><img src="/2024/04/01/2024-04-01-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/e754361e39bbab657943e218ff0b07d.png" alt="alt text"><br>这个题记得初始值设成inf。</li>
+<li>完全背包<br><img src="/2024/04/01/2024-04-01-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3690399e22460445d49da910555feea.png" alt="alt text"></li>
+<li>单词拆分<br><img src="/2024/04/01/2024-04-01-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/030587ae18292526d9cfc8454229b64.png" alt="alt text"></li>
+<li>打家劫舍<br><img src="/2024/04/01/2024-04-01-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/2ed9e65b616cabcb11870e249f3b8d9.png" alt="alt text"></li>
+<li>树形dp<br><img src="/2024/04/01/2024-04-01-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/00b9a91d5f79841e7f988728634ae5e.png" alt="alt text"></li>
+<li>买卖股票<br><img src="/2024/04/01/2024-04-01-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/ce47c99af4c23432b1b38b76216645b.png" alt="alt text"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>动态规划</tag>
+      </tags>
+  </entry>
 </search>
