@@ -1620,4 +1620,49 @@
         <tag>动态规划</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.04.03_学习日记</title>
+    <url>/2024/04/03/2024-04-03-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：5h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><p>今天跑了很多数据，用研发占比当作因变量效果会更好。</p>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>动态规划</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024.04.08_学习日记</title>
+    <url>/2024/04/08/2024-04-08-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：5h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>单调栈<br><img src="/2024/04/08/2024-04-08-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/0cff42586eed5ad27c1bbcf588b16bd.png" alt="alt text"></li>
+<li>双指针<br><img src="/2024/04/08/2024-04-08-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/b34e9b67a01ca946a718977c55c95d1.png" alt="alt text"></li>
+<li>单调栈<br><img src="/2024/04/08/2024-04-08-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/d5c88704d7de13b404610eb323546de.png" alt="alt text"></li>
+<li>dfs<br><img src="/2024/04/08/2024-04-08-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/4c2cec0e57a54d76d35dea9235afeeb.png" alt="alt text"></li>
+<li>岛屿问题bfs解法<br><img src="/2024/04/08/2024-04-08-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/fa9440a0f2b0a7d51231fc976683b10.png" alt="alt text"></li>
+<li>岛屿最大面积BFS解法<br><img src="/2024/04/08/2024-04-08-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/1889bf3a4b626d3a9b9e632810fbef7.png" alt="alt text"></li>
+<li>岛屿最大面积DFS解法<br><img src="/2024/04/08/2024-04-08-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/ec41f6b1aabea63135ad256a28aa5af.png" alt="alt text"></li>
+<li>飞地数量BFS解法<br><img src="/2024/04/08/2024-04-08-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/57771ddf0b5095fc41748f4e8d2ac9c.png" alt="alt text"></li>
+<li>飞地数量DFS解法<br><img src="/2024/04/08/2024-04-08-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/5ea97bf4a7b0f2790425aba8d9227b4.png" alt="alt text"></li>
+<li>DFS解法<br><img src="/2024/04/08/2024-04-08-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/aeeb45b99674e47919b71b9585006ea.png" alt="alt text"></li>
+<li>BFS解法<br><img src="/2024/04/08/2024-04-08-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/eab70dcd92aca7bc78c479d46ca1a38.png" alt="alt text"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>DFS</tag>
+        <tag>动态规划</tag>
+        <tag>双指针</tag>
+        <tag>单调栈</tag>
+      </tags>
+  </entry>
 </search>
