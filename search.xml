@@ -1638,7 +1638,7 @@
   <entry>
     <title>2024.04.08_学习日记</title>
     <url>/2024/04/08/2024-04-08-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：5h</p>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：10h</p>
 <span id="more"></span>
 <h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
 <li>单调栈<br><img src="/2024/04/08/2024-04-08-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/0cff42586eed5ad27c1bbcf588b16bd.png" alt="alt text"></li>
@@ -1652,6 +1652,33 @@
 <li>飞地数量DFS解法<br><img src="/2024/04/08/2024-04-08-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/5ea97bf4a7b0f2790425aba8d9227b4.png" alt="alt text"></li>
 <li>DFS解法<br><img src="/2024/04/08/2024-04-08-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/aeeb45b99674e47919b71b9585006ea.png" alt="alt text"></li>
 <li>BFS解法<br><img src="/2024/04/08/2024-04-08-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/eab70dcd92aca7bc78c479d46ca1a38.png" alt="alt text"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>DFS</tag>
+        <tag>动态规划</tag>
+        <tag>双指针</tag>
+        <tag>单调栈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024.04.09_学习日记</title>
+    <url>/2024/04/09/2024-04-09-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：10h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>太平洋大西洋问题DFS解法<br><img src="/2024/04/09/2024-04-09-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/729c40e8a7aa53f5bbfe6c760514e21.png" alt="alt text"></li>
+<li>BFS解法<br><img src="/2024/04/09/2024-04-09-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/2017b8b56bb25ee372f9fe75e3c2609.png" alt="alt text"></li>
+<li>最大人工岛 并查集<br><img src="/2024/04/09/2024-04-09-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/7c6c08d2ebc8316653a844db8088d08.png" alt="alt text"><br><img src="/2024/04/09/2024-04-09-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/030042bb9d0b9eccdf26f545a456ec6.png" alt="alt text"></li>
+<li>单词接龙<br><img src="/2024/04/09/2024-04-09-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/1e818638a2c7eb14dcc38bba13ac214.png" alt="alt text"></li>
+<li>钥匙问题DFS<br><img src="/2024/04/09/2024-04-09-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/7e55fc5b0b2053f0dce41286a57f453.png" alt="alt text"></li>
+<li>钥匙问题BFS<br><img src="/2024/04/09/2024-04-09-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/419ddc01e87acb27c32be05b02715d5.png" alt="alt text"></li>
+<li>并查集问题<br><img src="/2024/04/09/2024-04-09-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/5329e4f4f3822a5fc1c8969b3165cb3.png" alt="alt text"></li>
+<li>冗余连接<br><img src="/2024/04/09/2024-04-09-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/f34240476cadae94998a8a87e8033d1.png" alt="alt text"></li>
 </ol>
 ]]></content>
       <categories>
