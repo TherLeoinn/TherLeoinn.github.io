@@ -1730,6 +1730,50 @@
   <entry>
     <title>2024.04.12_学习日记</title>
     <url>/2024/04/12/2024-04-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：10h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>双指针<br><img src="/2024/04/12/2024-04-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/abab3980a3f668879bc6b5a91826fd8.png" alt="alt text"></li>
+<li>DFS<br><img src="/2024/04/12/2024-04-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/b6f9f02062241f2afa57778d58b5b74.png" alt="alt text"></li>
+<li>搜索二叉树转化为平衡二叉树<br><img src="/2024/04/12/2024-04-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/2496e7c6a22727a7cd037facc7ab502.png" alt="alt text"></li>
+<li>二叉树<br><img src="/2024/04/12/2024-04-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/5476ade34f7a63136232a2061f15f2d.png" alt="alt text"></li>
+<li>二叉树迭代法<br><img src="/2024/04/12/2024-04-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/9c2a519d0dfa9d52d57e51e0738de33.png" alt="alt text"></li>
+<li>N皇后2<br><img src="/2024/04/12/2024-04-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/6652d7cf666eca6525d7aa765d2008a.png" alt="alt text"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>二分法</tag>
+        <tag>回溯</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024.04.15_学习日记</title>
+    <url>/2024/04/15/2024-04-15-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：10h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>动态规划<br><img src="/2024/04/15/2024-04-15-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/c8402ac230ecb024251ccefa50a7b7c.png" alt="alt text"></li>
+<li>动态规划<br><img src="/2024/04/15/2024-04-15-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/5f8884246b8846f17a4b1c9675409fa.png" alt="alt text"></li>
+<li>岛屿周长<br><img src="/2024/04/15/2024-04-15-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/1ea4cc2d0c33e22de3fd70b9555df94.png" alt="alt text"></li>
+<li>BFS<br><img src="/2024/04/15/2024-04-15-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/e3d5314c0cd20f48c12603ed0e36d68.png" alt="alt text"></li>
+<li>排列<br><img src="/2024/04/15/2024-04-15-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/101b6609242433585165f024690d80a.png" alt="alt text"></li>
+<li>二进制<br><img src="/2024/04/15/2024-04-15-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/31fbcd752b1363cca112bd970f0c2e8.png" alt="alt text"></li>
+<li>哈希表<br><img src="/2024/04/15/2024-04-15-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/777f181b194e5ad129f7add35275ebd.png" alt="alt text"></li>
+<li>哈希表<br><img src="/2024/04/15/2024-04-15-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/97a2531ec83be41b33fe787e9578e34.png" alt="alt text"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>BFS</tag>
+        <tag>动态规划</tag>
+        <tag>哈希表</tag>
+      </tags>
   </entry>
 </search>
