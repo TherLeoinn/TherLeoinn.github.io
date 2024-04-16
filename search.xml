@@ -1776,4 +1776,25 @@
         <tag>哈希表</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.04.16_学习日记</title>
+    <url>/2024/04/16/2024-04-16-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：10h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>机考是ACM<br><img src="/2024/04/16/2024-04-16-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/d0138d61d05ebcec2793e9b24477125.png" alt="alt text"><br>如果是要输入多行多个数据，那么就要用split函数去分割input，然后用map函数把数值变为int，再转化为list才能变成一个列表list。最后还要print。如果输入多行就要用while True才行。<br><img src="/2024/04/16/2024-04-16-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/5246be799f46299b8189a4b26064975.png" alt="alt text"><br>第一行是一个数的话直接n&#x3D;int(input()),然后再用try except，里面可以加ifelse，或者用for循环也可以<br><img src="/2024/04/16/2024-04-16-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/230eefa4e1792333d35d7b1a9e4c782.png" alt="alt text"><br>题目说了只有两行就不用while，也不用转换为int类型。</li>
+<li>最长回文子串动态规划解法<br><img src="/2024/04/16/2024-04-16-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/eec1da20585bdda207bf60131e1e21f.png" alt="alt text"></li>
+<li>计算质数<br><img src="/2024/04/16/2024-04-16-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/fb537038168339046ab35d3b747f8b7.png" alt="alt text"></li>
+<li>环形公路<br><img src="/2024/04/16/2024-04-16-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/b875233b19c68f555a9f47e30fd0fbc.png" alt="alt text"><br>注意交换xy位置</li>
+<li>美团题<br><img src="/2024/04/16/2024-04-16-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/deae7b17588e6fe6b82c9f802677b36.png" alt="alt text"></li>
+<li>美团题<br><img src="/2024/04/16/2024-04-16-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/5a5b052ed22db52848d03b3314a1c73.png" alt="alt text"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
 </search>
