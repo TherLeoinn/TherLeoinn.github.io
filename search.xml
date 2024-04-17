@@ -1797,4 +1797,23 @@
         <tag>算法</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.04.17_学习日记</title>
+    <url>/2024/04/17/2024-04-17-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：学校<br>学习时长：10h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>动态规划<br><img src="/2024/04/17/2024-04-17-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/50a37bafb9d0287ed03dc46b0076f58.png" alt="alt text"><br>dp的含义是n个数的数组里有多少个长度为rest满足条件的子序列。</li>
+<li>动态规划<br><img src="/2024/04/17/2024-04-17-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/b230fd7ba615f8a31f8e756e709765c.png" alt="alt text"></li>
+<li>贪心<br><img src="/2024/04/17/2024-04-17-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/fc0fd773952ea45e0915696a0e141e7.png" alt="alt text"></li>
+<li>图形题<br><img src="/2024/04/17/2024-04-17-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/a4e6189fe411cc3859e062f83d3ae20.png" alt="alt text"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
 </search>
