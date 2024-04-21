@@ -1855,4 +1855,24 @@
         <tag>算法</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.04.21_学习日记</title>
+    <url>/2024/04/21/2024-04-21-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：浦东图书馆<br>学习时长：5h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>算法题<br><img src="/2024/04/21/2024-04-21-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/e29d26675fe9a14cdc9b1092dca33ad.png" alt="alt text"></li>
+<li>算法题<br><img src="/2024/04/21/2024-04-21-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/b8e901ada4cbb87bb722a3eaa05767e.png" alt="alt text"><br>注意setdefault用法以及设置s以及邻接表的写法</li>
+<li>算法题<br><img src="/2024/04/21/2024-04-21-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/9f78b7384da72e636043e3df253bc20.png" alt="alt text"></li>
+<li>求导题<br><img src="/2024/04/21/2024-04-21-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/94057d8cc82e8c057b183e2ee02d223.png" alt="alt text"><br>要考虑边界问题，求导的时候考虑恒大于0的情况。</li>
+<li>算法题<br><img src="/2024/04/21/2024-04-21-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/52b4c715e27d977deb4b02d568bbc97.png" alt="alt text"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
 </search>
