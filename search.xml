@@ -2027,4 +2027,31 @@
         <tag>算法</tag>
       </tags>
   </entry>
+  <entry>
+    <title>2024.05.12_学习日记</title>
+    <url>/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：宿舍<br>学习时长：10h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>一维牛顿法<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/d64122b673d3d4b5c6ba65bae858631.png" alt="alt text"><br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/f27d9a1883b7b304b9e2db408b1b1c4.png" alt="alt text"><br>一维牛顿法的基本思想是用迭代点的梯度信息和二阶导数对目标函数进行二次函数逼近，然后把二次函数的极小值作为新的迭代点，并不断重复这一过程，直到求出极小点。<br>牛顿法的好处在于收敛速度快，缺点在于计算二阶导数的计算量大以及求解线性方程组确定搜索方向可能是病态的。</li>
+<li>割线法<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/bc761c5fec0ecb2821c1d1f15e4ec5a.png" alt="alt text"><br>在牛顿法中，每一步都需要计算当前点的导数值，需要手动求导。如果不想人工求导，可以使用两点割线来代替切线，从而得到割线法，因此割线法又称分立牛顿法。这时候当前位置的值需要上一个和上上个一阶导数的信息。</li>
+<li>非精确一维搜索——armijo条件：步长可能会很短<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/57e55818ddb3922dde37ecf5e818000.png" alt="alt text"><br>goldstein条件：让步长不短也不长（用的不多）<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/f4662fafd2689c9bd98ea14058151cf.png" alt="alt text"><br>缺点是条件会限制的很死。<br>wolfe和强wolfe条件（用的多）<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3a1689dc175031c15ced59e55d343a2.png" alt="alt text"><br>在armijo条件下方，在梯度方向上方。<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/00b0a586b2dd1a9c812f5487712247e.png" alt="alt text"><br>左边和右边都构建一个势。<br>回溯法：适合armijo条件<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/a2e53f41c4a4bd455f6d8a2d6bd1e02.png" alt="alt text"><br>先选一个a0，然后乘一个数，看是不是在armijo条件内。<br>内插法：<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/03359770c0b2bbf29d3e33348f9f8a5.png" alt="alt text"><br>把a0点和y轴的点求解抛物线方程，然后找到对称轴点继续迭代。这两个点在对称轴两边。<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/6dfc2d4dd0a3e9db0d668e1167492d8.png" alt="alt text"><br>外插法是利用两个点的导数性质求对称轴点，因为两个点在对称轴同一边。</li>
+<li>二分法<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/b13935312bca810b1d1cf1fafc89228.png" alt="alt text"></li>
+<li>最速下降法<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/b10c51530976fab606c015c68187c7a.png" alt="alt text"><br>缺点：需要指出的是，某点的负梯度方向，通常只是在该点附近才具有这种最速下降的性质。<br>在一般情况下，当用最速下降法寻找极小点时，其搜索路径呈直角锯齿状（如下图），在开头 几步，目标函数下降较快；但在接近极小点时，收敛速度长久不理想了。特别适当目标函数的等值 线为比较扁平的椭圆时，收敛就更慢了。实用中常用最速下降法和其他方法联合应用，在前期使用最速下降法，而在接近极小值点时，可改用收敛较快的其他方法。</li>
+<li>多维牛顿法<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3fba5d44ed62a5a3904ffb2766fec38.png" alt="alt text"><br>黑塞矩阵可能是奇异矩阵，不能求逆。黑塞矩阵非正定。<br>如何保持下降特性，可以优化寻找步长，找到合适的步长使得保持下降特性。<br>如何让非正定矩阵变成正定，那就让黑塞矩阵加一个对角矩阵，让其正定。<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/a40c084659a0857c011282957c49a66.png" alt="alt text"></li>
+<li><a href="https://www.ruanyifeng.com/blog/2012/11/gaussian_blur.html">高斯模糊</a><br>一种数据平滑技术（data smoothing），适用于多个场合。所谓”模糊”，可以理解成每一个像素都取周边像素的平均值。既然每个点都要取周边像素的平均值，那么应该如何分配权重呢？如果使用简单平均，显然不是很合理，因为图像都是连续的，越靠近的点关系越密切，越远离的点关系越疏远。因此，加权平均更合理，距离越近的点权重越大，距离越远的点权重越小。正态分布是一种钟形曲线，越接近中心，取值越大，越远离中心，取值越小。先在水平方向上做一维卷积，再在垂直方向上做一维卷积，二维高斯卷积操作得以拆分。</li>
+<li>数值计算</li>
+</ol>
+<p>矩阵三角分解法：</p>
+<p>LU分解：第一行一样<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/6cb52886c025e64d430c515f137495f.png" alt="alt text"><br>TM分解<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/a4cacf116a713b133a77da47472dec7.png" alt="alt text"><br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/c517a8f80117fbbecc94dd215ed7976.png" alt="alt text"><br>GG分解<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/a2cdee3ee5007a863257b1f26ed5b62.png" alt="alt text"><br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/f2d3657c1d40be433b77307d754c4b0.png" alt="alt text"></p>
+<p>拉格朗日插值多项式：<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/6780f31cca967c2d1767a99ba85a17c.png" alt="alt text"><br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/7f531dc7dfc17dda50bcf5f1b16bc3b.png" alt="alt text"><br>差商：<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/9b814a90f9466fa586880a23eade893.png" alt="alt text"></p>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>优化算法</tag>
+        <tag>高斯模糊</tag>
+      </tags>
+  </entry>
 </search>
