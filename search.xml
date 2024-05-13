@@ -2044,7 +2044,7 @@
 </ol>
 <p>矩阵三角分解法：</p>
 <p>LU分解：第一行一样<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/6cb52886c025e64d430c515f137495f.png" alt="alt text"><br>TM分解<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/a4cacf116a713b133a77da47472dec7.png" alt="alt text"><br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/c517a8f80117fbbecc94dd215ed7976.png" alt="alt text"><br>GG分解<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/a2cdee3ee5007a863257b1f26ed5b62.png" alt="alt text"><br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/f2d3657c1d40be433b77307d754c4b0.png" alt="alt text"></p>
-<p>拉格朗日插值多项式：<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/6780f31cca967c2d1767a99ba85a17c.png" alt="alt text"><br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/7f531dc7dfc17dda50bcf5f1b16bc3b.png" alt="alt text"><br>差商：<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/9b814a90f9466fa586880a23eade893.png" alt="alt text"></p>
+<p>拉格朗日插值多项式：<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/6780f31cca967c2d1767a99ba85a17c.png" alt="alt text"><br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/7f531dc7dfc17dda50bcf5f1b16bc3b.png" alt="alt text"><br>差商（牛顿插值法）：<br><img src="/2024/05/12/2024-05-12-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/9b814a90f9466fa586880a23eade893.png" alt="alt text"></p>
 ]]></content>
       <categories>
         <category>学习日记</category>
@@ -2052,6 +2052,29 @@
       <tags>
         <tag>优化算法</tag>
         <tag>高斯模糊</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024.05.13_学习日记</title>
+    <url>/2024/05/13/2024-05-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>天气：晴<br>学习地点：宿舍<br>学习时长：10h</p>
+<span id="more"></span>
+<h2 id="学习内容"><a href="#学习内容" class="headerlink" title="学习内容"></a>学习内容</h2><ol>
+<li>hermite插值多项式<br><img src="/2024/05/13/2024-05-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/8ea3835b31c08f8c73e66fe121d6a00.png" alt="alt text"><br><img src="/2024/05/13/2024-05-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/0926934c942f7459777e5cbe97b98e6.png" alt="alt text"><br><img src="/2024/05/13/2024-05-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/5628323c9e883662894f6a5ab6d286a.png" alt="alt text"><br><img src="/2024/05/13/2024-05-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/3f6cab20aef67041ae6320d06886fc5.png" alt="alt text"></li>
+<li>最小二乘法<br><img src="/2024/05/13/2024-05-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/2b5e4b1db92c98be49f9293a3ed54ef.png" alt="alt text"><br><img src="/2024/05/13/2024-05-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/d356b3b233ad0fea1233210040d5c24.png" alt="alt text"><br><img src="/2024/05/13/2024-05-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/a6688f57609a19529e49a618eb16287.png" alt="alt text"><br><img src="/2024/05/13/2024-05-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/a327a6b74f927b96895c37ac2a82f3b.png" alt="alt text"></li>
+<li>正交多项式<br><img src="/2024/05/13/2024-05-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/66aa74602bfc92df6074861754f7eaa.png" alt="alt text"><br><img src="/2024/05/13/2024-05-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/ea2c90090c9857df58fb1401dcb7027.png" alt="alt text"></li>
+<li>求积公式与代数精度<br><img src="/2024/05/13/2024-05-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/12883f271320dd5981ff4525c34913e.png" alt="alt text"><br><img src="/2024/05/13/2024-05-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/57a8bcd921ced9d2d54724a1dfece4b.png" alt="alt text"></li>
+<li>复化梯形和复化simpson<br><img src="/2024/05/13/2024-05-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/1496f70ae0568b0b3bebd56fab9bdb7.png" alt="alt text"><br><img src="/2024/05/13/2024-05-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/2a4d042ef17cc8c2ee617d04fd4850d.png" alt="alt text"><br><img src="/2024/05/13/2024-05-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/5df2694600bceec908849eba48d45d3.png" alt="alt text"></li>
+<li>Gauss型求积公式<br><img src="/2024/05/13/2024-05-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/6390c5129cc6fb0679dd33e1894171b.png" alt="alt text"><br><img src="/2024/05/13/2024-05-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/8f6628968b01ff754e327135e195119.png" alt="alt text"><br><img src="/2024/05/13/2024-05-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/223362d2496705a50e8b625bfa8ea0b.png" alt="alt text"></li>
+<li>Gauss变形<br><img src="/2024/05/13/2024-05-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/0fad49c293032962b566b6a1a3c83ab.png" alt="alt text"><br><img src="/2024/05/13/2024-05-13-%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/c1ba02d8ff3ae1725caad5452685874.png" alt="alt text"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习日记</category>
+      </categories>
+      <tags>
+        <tag>优化算法</tag>
+        <tag>数值分析</tag>
       </tags>
   </entry>
 </search>
